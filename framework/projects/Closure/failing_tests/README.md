@@ -1,1 +1,0 @@
-../../Chart/failing_tests/README.md
