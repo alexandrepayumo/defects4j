@@ -1,0 +1,90 @@
+Kind,Name,PercentLackOfCohesionModified,PercentLackOfCohesion,LCOM,CohesionLevel
+Public Abstract Class,org.apache.commons.compress.AbstractTestCase,67,67,67,Low
+Public Final Class,org.apache.commons.compress.DetectArchiverTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.DetectCompressorTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.ArTestCase,0,0,0,High
+Public Interface,org.apache.commons.compress.archivers.ArchiveEntry,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.ArchiveException,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.archivers.ArchiveInputStream,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.archivers.ArchiveOutputStream,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.ArchiveStreamFactory,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.CpioTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.JarTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.TarTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.ZipTestCase,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.ar.ArArchiveEntry,68,80,80,Very Low
+Public Class,org.apache.commons.compress.archivers.ar.ArArchiveInputStream,21,43,43,Medium
+Public Class,org.apache.commons.compress.archivers.ar.ArArchiveOutputStream,43,64,64,Low
+Public Class,org.apache.commons.compress.archivers.cpio.CpioArchiveEntry,90,93,93,Very Low
+Public Class,org.apache.commons.compress.archivers.cpio.CpioArchiveInputStream,64,87,87,Very Low
+Public Class,org.apache.commons.compress.archivers.cpio.CpioArchiveInputStreamTest,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.cpio.CpioArchiveOutputStream,69,84,84,Very Low
+Public Interface,org.apache.commons.compress.archivers.cpio.CpioConstants,0,0,0,High
+Class,org.apache.commons.compress.archivers.cpio.CpioUtil,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.jar.JarArchiveEntry,83,83,83,Very Low
+Public Class,org.apache.commons.compress.archivers.jar.JarArchiveInputStream,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.jar.JarArchiveOutputStream,50,50,50,Medium
+Public Class,org.apache.commons.compress.archivers.jar.JarArchiveOutputStreamTest,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.memory.MemoryArchiveEntry,50,50,50,Medium
+Public Final Class,org.apache.commons.compress.archivers.memory.MemoryArchiveInputStream,42,42,42,Medium
+Public Final Class,org.apache.commons.compress.archivers.memory.MemoryArchiveTestCase,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.tar.TarArchiveEntry,73,84,84,Very Low
+Public Class,org.apache.commons.compress.archivers.tar.TarArchiveEntryTest,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.tar.TarArchiveInputStream,63,83,83,Very Low
+Public Class,org.apache.commons.compress.archivers.tar.TarArchiveOutputStream,64,85,85,Very Low
+Public Class,org.apache.commons.compress.archivers.tar.TarBuffer,34,68,68,Low
+Public Interface,org.apache.commons.compress.archivers.tar.TarConstants,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.tar.TarUtils,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.archivers.zip.AbstractUnicodeExtraField,26,62,62,Low
+Public Class,org.apache.commons.compress.archivers.zip.AsiExtraField,64,86,86,Very Low
+Public Class,org.apache.commons.compress.archivers.zip.AsiExtraFieldTest,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.ExtraFieldUtils,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.ExtraFieldUtilsTest,38,38,38,Medium
+Class,org.apache.commons.compress.archivers.zip.FallbackZipEncoding,20,20,20,High
+Public Final Class,org.apache.commons.compress.archivers.zip.JarMarker,0,0,0,High
+Class,org.apache.commons.compress.archivers.zip.NioZipEncoding,0,0,0,High
+Class,org.apache.commons.compress.archivers.zip.Simple8BitZipEncoding,44,75,75,Low
+Private Static Final Class,org.apache.commons.compress.archivers.zip.Simple8BitZipEncoding.Simple8BitChar,17,17,17,High
+Public Class,org.apache.commons.compress.archivers.zip.TestZipEncodings,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.UTF8ZipFilesTest,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.UnicodeCommentExtraField,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.UnicodePathExtraField,0,0,0,High
+Public Interface,org.apache.commons.compress.archivers.zip.UnixStat,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.UnrecognizedExtraField,61,73,73,Low
+Public Class,org.apache.commons.compress.archivers.zip.ZipArchiveEntry,77,88,88,Very Low
+Public Class,org.apache.commons.compress.archivers.zip.ZipArchiveEntryTest,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.ZipArchiveInputStream,17,33,33,Medium
+Public Class,org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream,76,89,89,Very Low
+Public Static Final Class,org.apache.commons.compress.archivers.zip.ZipArchiveOutputStream.UnicodeExtraFieldPolicy,0,0,0,High
+Interface,org.apache.commons.compress.archivers.zip.ZipEncoding,0,0,0,High
+Abstract Class,org.apache.commons.compress.archivers.zip.ZipEncodingHelper,0,0,0,High
+Private Static Class,org.apache.commons.compress.archivers.zip.ZipEncodingHelper.SimpleEncodingHolder,25,25,25,High
+Public Interface,org.apache.commons.compress.archivers.zip.ZipExtraField,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.ZipFile,54,81,81,Very Low
+Private Class,org.apache.commons.compress.archivers.zip.ZipFile.BoundedInputStream,25,25,25,High
+Private Static Final Class,org.apache.commons.compress.archivers.zip.ZipFile.NameAndComment,0,0,0,High
+Private Static Final Class,org.apache.commons.compress.archivers.zip.ZipFile.OffsetEntry,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.zip.ZipLong,36,45,45,Medium
+Public Class,org.apache.commons.compress.archivers.zip.ZipLongTest,0,0,0,High
+Public Final Class,org.apache.commons.compress.archivers.zip.ZipShort,36,45,45,Medium
+Public Class,org.apache.commons.compress.archivers.zip.ZipShortTest,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.archivers.zip.ZipUtil,0,0,0,High
+Public Class,org.apache.commons.compress.archivers.zip.ZipUtilTest,60,60,60,Low
+Public Class,org.apache.commons.compress.changes.Change,50,50,50,Medium
+Public Final Class,org.apache.commons.compress.changes.ChangeSet,14,29,29,Medium
+Public Final Class,org.apache.commons.compress.changes.ChangeSetTestCase,0,0,0,High
+Public Final Class,org.apache.commons.compress.compressors.BZip2TestCase,0,0,0,High
+Public Class,org.apache.commons.compress.compressors.CompressorException,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.compressors.CompressorInputStream,0,0,0,High
+Public Abstract Class,org.apache.commons.compress.compressors.CompressorOutputStream,0,0,0,High
+Public Class,org.apache.commons.compress.compressors.CompressorStreamFactory,0,0,0,High
+Public Final Class,org.apache.commons.compress.compressors.GZipTestCase,0,0,0,High
+Public Class,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream,48,84,84,Very Low
+Private Static Final Class,org.apache.commons.compress.compressors.bzip2.BZip2CompressorInputStream.Data,93,93,93,Very Low
+Public Class,org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream,68,91,91,Very Low
+Private Static Class,org.apache.commons.compress.compressors.bzip2.BZip2CompressorOutputStream.StackElem,0,0,0,High
+Interface,org.apache.commons.compress.compressors.bzip2.BZip2Constants,0,0,0,High
+Class,org.apache.commons.compress.compressors.bzip2.CRC,0,14,14,High
+Public Class,org.apache.commons.compress.compressors.gzip.GzipCompressorInputStream,0,0,0,High
+Public Class,org.apache.commons.compress.compressors.gzip.GzipCompressorOutputStream,0,0,0,High
+Public Final Class,org.apache.commons.compress.utils.IOUtils,0,0,0,High

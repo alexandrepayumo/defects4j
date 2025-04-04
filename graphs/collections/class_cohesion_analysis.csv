@@ -1,0 +1,742 @@
+Kind,Name,PercentLackOfCohesionModified,PercentLackOfCohesion,LCOM,CohesionLevel
+Public Abstract Class,org.apache.commons.collections.AbstractTestObject,0,0,0,High
+Public Class,org.apache.commons.collections.ArrayStack,0,0,0,High
+Public Interface,org.apache.commons.collections.Bag,0,0,0,High
+Public Class,org.apache.commons.collections.BagUtils,0,0,0,High
+Public Class,org.apache.commons.collections.BeanMap,69,84,84,Very Low
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_5),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_6),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_7),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.(Anon_8),0,0,0,High
+Protected Static Class,org.apache.commons.collections.BeanMap.MyMapEntry,0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.entryIterator.(Anon_11),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.entrySet.(Anon_9),0,0,0,High
+Anonymous Class,org.apache.commons.collections.BeanMap.valueIterator.(Anon_10),0,0,0,High
+Public Interface,org.apache.commons.collections.BidiMap,0,0,0,High
+Public Final Class,org.apache.commons.collections.BinaryHeap,41,72,72,Low
+Anonymous Class,org.apache.commons.collections.BinaryHeap.iterator.(Anon_1),17,17,17,High
+Public Interface,org.apache.commons.collections.BoundedCollection,0,0,0,High
+Public Class,org.apache.commons.collections.BoundedFifoBuffer,46,64,64,Low
+Anonymous Class,org.apache.commons.collections.BoundedFifoBuffer.iterator.(Anon_1),22,22,22,High
+Public Interface,org.apache.commons.collections.BoundedMap,0,0,0,High
+Public Interface,org.apache.commons.collections.Buffer,0,0,0,High
+Public Class,org.apache.commons.collections.BufferOverflowException,0,25,25,High
+Public Class,org.apache.commons.collections.BufferUnderflowException,0,25,25,High
+Public Class,org.apache.commons.collections.BufferUtils,0,0,0,High
+Public Class,org.apache.commons.collections.BulkTest,60,60,60,Low
+Class,org.apache.commons.collections.BulkTestSuiteMaker,68,75,75,Low
+Public Interface,org.apache.commons.collections.Closure,0,0,0,High
+Public Class,org.apache.commons.collections.ClosureUtils,0,0,0,High
+Public Class,org.apache.commons.collections.CollectionUtils,85,98,98,Very Low
+Public Class,org.apache.commons.collections.ComparatorUtils,0,0,0,High
+Public Class,org.apache.commons.collections.CursorableLinkedList,50,74,74,Low
+Public Class,org.apache.commons.collections.CursorableLinkedList.Cursor,50,60,60,Low
+Class,org.apache.commons.collections.CursorableLinkedList.ListIter,30,50,50,Medium
+Static Class,org.apache.commons.collections.CursorableLinkedList.Listable,57,57,57,Low
+Class,org.apache.commons.collections.CursorableSubList,63,92,92,Very Low
+Public Abstract Class,org.apache.commons.collections.DefaultMapBag,56,77,77,Very Low
+Static Class,org.apache.commons.collections.DefaultMapBag.BagIterator,19,19,19,High
+Public Class,org.apache.commons.collections.DefaultMapEntry,30,60,60,Low
+Public Final Class,org.apache.commons.collections.DoubleOrderedMap,86,93,93,Very Low
+Private Abstract Class,org.apache.commons.collections.DoubleOrderedMap.DoubleOrderedMapIterator,31,31,31,Medium
+Private Static Final Class,org.apache.commons.collections.DoubleOrderedMap.Node,81,81,81,Very Low
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.entrySet.(Anon_11),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.entrySet.(Anon_11).iterator.(Anon_12),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.entrySetByValue.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.entrySetByValue.(Anon_1).iterator.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.keySet.(Anon_7),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.keySet.(Anon_7).iterator.(Anon_8),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.keySetByValue.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.keySetByValue.(Anon_3).iterator.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.values.(Anon_9),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.values.(Anon_9).iterator.(Anon_10),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.valuesByValue.(Anon_5),0,0,0,High
+Anonymous Class,org.apache.commons.collections.DoubleOrderedMap.valuesByValue.(Anon_5).iterator.(Anon_6),0,0,0,High
+Public Class,org.apache.commons.collections.EnumerationUtils,0,0,0,High
+Public Class,org.apache.commons.collections.ExtendedProperties,82,93,93,Very Low
+Static Class,org.apache.commons.collections.ExtendedProperties.PropertiesReader,0,0,0,High
+Static Class,org.apache.commons.collections.ExtendedProperties.PropertiesTokenizer,0,0,0,High
+Public Interface,org.apache.commons.collections.Factory,0,0,0,High
+Public Class,org.apache.commons.collections.FactoryUtils,0,0,0,High
+Public Class,org.apache.commons.collections.FastArrayList,9,9,9,High
+Private Class,org.apache.commons.collections.FastArrayList.ListIter,42,42,42,Medium
+Private Class,org.apache.commons.collections.FastArrayList.SubList,11,49,49,Medium
+Private Class,org.apache.commons.collections.FastArrayList.SubList.SubListIter,25,42,42,Medium
+Public Class,org.apache.commons.collections.FastHashMap,29,29,29,Medium
+Private Abstract Class,org.apache.commons.collections.FastHashMap.CollectionView,0,0,0,High
+Private Class,org.apache.commons.collections.FastHashMap.CollectionView.CollectionViewIterator,17,17,17,High
+Private Class,org.apache.commons.collections.FastHashMap.EntrySet,0,0,0,High
+Private Class,org.apache.commons.collections.FastHashMap.KeySet,0,0,0,High
+Private Class,org.apache.commons.collections.FastHashMap.Values,0,0,0,High
+Public Class,org.apache.commons.collections.FastTreeMap,22,22,22,High
+Private Abstract Class,org.apache.commons.collections.FastTreeMap.CollectionView,0,0,0,High
+Private Class,org.apache.commons.collections.FastTreeMap.CollectionView.CollectionViewIterator,17,17,17,High
+Private Class,org.apache.commons.collections.FastTreeMap.EntrySet,0,0,0,High
+Private Class,org.apache.commons.collections.FastTreeMap.KeySet,0,0,0,High
+Private Class,org.apache.commons.collections.FastTreeMap.Values,0,0,0,High
+Public Class,org.apache.commons.collections.FunctorException,13,25,25,High
+Public Class,org.apache.commons.collections.HashBag,0,0,0,High
+Public Interface,org.apache.commons.collections.IterableMap,0,0,0,High
+Public Class,org.apache.commons.collections.IteratorUtils,0,0,0,High
+Public Interface,org.apache.commons.collections.KeyValue,0,0,0,High
+Public Class,org.apache.commons.collections.LRUMap,30,40,40,Medium
+Public Class,org.apache.commons.collections.ListUtils,0,0,0,High
+Class,org.apache.commons.collections.LocalTestNode,25,63,63,Low
+Public Interface,org.apache.commons.collections.MapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.MapPerformance,0,0,0,High
+Private Static Class,org.apache.commons.collections.MapPerformance.DummyMap,0,0,0,High
+Public Class,org.apache.commons.collections.MapUtils,0,0,0,High
+Public Class,org.apache.commons.collections.MultiHashMap,95,95,95,Very Low
+Private Class,org.apache.commons.collections.MultiHashMap.ValueIterator,20,50,50,Medium
+Private Class,org.apache.commons.collections.MultiHashMap.Values,0,0,0,High
+Public Interface,org.apache.commons.collections.MultiMap,0,0,0,High
+Public Interface,org.apache.commons.collections.OrderedBidiMap,0,0,0,High
+Public Interface,org.apache.commons.collections.OrderedIterator,0,0,0,High
+Public Interface,org.apache.commons.collections.OrderedMap,0,0,0,High
+Public Interface,org.apache.commons.collections.OrderedMapIterator,0,0,0,High
+Public Interface,org.apache.commons.collections.Predicate,0,0,0,High
+Public Class,org.apache.commons.collections.PredicateUtils,0,0,0,High
+Public Interface,org.apache.commons.collections.PriorityQueue,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.ProxyMap,0,0,0,High
+Public Class,org.apache.commons.collections.ReferenceMap,73,87,87,Very Low
+Private Class,org.apache.commons.collections.ReferenceMap.Entry,50,66,66,Low
+Private Class,org.apache.commons.collections.ReferenceMap.EntryIterator,43,63,63,Low
+Private Class,org.apache.commons.collections.ReferenceMap.KeyIterator,0,0,0,High
+Private Static Class,org.apache.commons.collections.ReferenceMap.SoftRef,0,0,0,High
+Private Class,org.apache.commons.collections.ReferenceMap.ValueIterator,0,0,0,High
+Private Static Class,org.apache.commons.collections.ReferenceMap.WeakRef,0,0,0,High
+Anonymous Class,org.apache.commons.collections.ReferenceMap.entrySet.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.ReferenceMap.keySet.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.ReferenceMap.values.(Anon_3),0,0,0,High
+Public Interface,org.apache.commons.collections.ResettableIterator,0,0,0,High
+Public Interface,org.apache.commons.collections.ResettableListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.SequencedHashMap,55,73,73,Low
+Private Static Class,org.apache.commons.collections.SequencedHashMap.Entry,61,82,82,Very Low
+Private Class,org.apache.commons.collections.SequencedHashMap.OrderedIterator,33,33,33,Medium
+Anonymous Class,org.apache.commons.collections.SequencedHashMap.entrySet.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.SequencedHashMap.keySet.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.SequencedHashMap.values.(Anon_2),0,0,0,High
+Public Class,org.apache.commons.collections.SetUtils,0,0,0,High
+Public Interface,org.apache.commons.collections.SortedBag,0,0,0,High
+Public Interface,org.apache.commons.collections.SortedBidiMap,0,0,0,High
+Public Final Class,org.apache.commons.collections.StaticBucketMap,24,45,45,Medium
+Private Class,org.apache.commons.collections.StaticBucketMap.EntryIterator,25,58,58,Low
+Private Class,org.apache.commons.collections.StaticBucketMap.EntrySet,0,0,0,High
+Private Class,org.apache.commons.collections.StaticBucketMap.KeyIterator,0,0,0,High
+Private Class,org.apache.commons.collections.StaticBucketMap.KeySet,0,0,0,High
+Private Static Final Class,org.apache.commons.collections.StaticBucketMap.Lock,0,0,0,High
+Private Static Final Class,org.apache.commons.collections.StaticBucketMap.Node,53,53,53,Low
+Private Class,org.apache.commons.collections.StaticBucketMap.ValueIterator,0,0,0,High
+Private Class,org.apache.commons.collections.StaticBucketMap.Values,0,0,0,High
+Public Final Class,org.apache.commons.collections.SynchronizedPriorityQueue,0,0,0,High
+Public Class,org.apache.commons.collections.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.TestAllPackages,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.TestArrayList,50,50,50,Medium
+Public Class,org.apache.commons.collections.TestArrayStack,50,50,50,Medium
+Public Class,org.apache.commons.collections.TestBagUtils,83,83,83,Very Low
+Public Class,org.apache.commons.collections.TestBeanMap,67,89,89,Very Low
+Public Static Class,org.apache.commons.collections.TestBeanMap.BeanWithProperties,90,90,90,Very Low
+Public Class,org.apache.commons.collections.TestBinaryHeap,0,0,0,High
+Public Class,org.apache.commons.collections.TestBoundedFifoBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.TestBoundedFifoBuffer2,0,0,0,High
+Public Class,org.apache.commons.collections.TestBufferUtils,0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestBufferUtils.testpredicatedBuffer.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.TestClosureUtils,0,0,0,High
+Static Class,org.apache.commons.collections.TestClosureUtils.MockClosure,0,0,0,High
+Static Class,org.apache.commons.collections.TestClosureUtils.MockTransformer,0,0,0,High
+Public Class,org.apache.commons.collections.TestCollectionUtils,84,84,84,Very Low
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.bulkTestTypedCollection.(Anon_5),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.bulkTestTypedCollection.(Anon_5).bulkTestAll.(Anon_6),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.testPredicatedCollection.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestCollectionUtils.testTransform2.(Anon_3),0,0,0,High
+Public Class,org.apache.commons.collections.TestCursorableLinkedList,13,13,13,High
+Public Class,org.apache.commons.collections.TestDoubleOrderedMap,0,0,0,High
+Public Class,org.apache.commons.collections.TestEnumerationUtils,0,0,0,High
+Public Class,org.apache.commons.collections.TestExtendedProperties,83,83,83,Very Low
+Public Class,org.apache.commons.collections.TestFactoryUtils,0,0,0,High
+Public Static Class,org.apache.commons.collections.TestFactoryUtils.Mock1,0,0,0,High
+Public Static Class,org.apache.commons.collections.TestFactoryUtils.Mock2,0,0,0,High
+Public Static Class,org.apache.commons.collections.TestFactoryUtils.Mock3,25,25,25,High
+Public Class,org.apache.commons.collections.TestFastArrayList,0,0,0,High
+Public Class,org.apache.commons.collections.TestFastArrayList1,0,0,0,High
+Public Class,org.apache.commons.collections.TestFastHashMap,0,0,0,High
+Public Class,org.apache.commons.collections.TestFastHashMap1,0,0,0,High
+Public Class,org.apache.commons.collections.TestFastTreeMap,0,0,0,High
+Public Class,org.apache.commons.collections.TestFastTreeMap1,0,0,0,High
+Public Class,org.apache.commons.collections.TestHashBag,0,0,0,High
+Public Class,org.apache.commons.collections.TestIteratorUtils,0,0,0,High
+Public Class,org.apache.commons.collections.TestLRUMap,0,0,0,High
+Private Class,org.apache.commons.collections.TestLRUMap.LRUCounter,50,50,50,Medium
+Public Abstract Class,org.apache.commons.collections.TestLinkedList,0,0,0,High
+Public Class,org.apache.commons.collections.TestListUtils,80,80,80,Very Low
+Anonymous Class,org.apache.commons.collections.TestListUtils.testLazyList.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestListUtils.testpredicatedList.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.TestMapUtils,0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestMapUtils.bulkTestTypedMap.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestMapUtils.getPredicate.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestMapUtils.testConvertResourceBundle.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestMapUtils.testLazyMapTransformer.(Anon_3),0,0,0,High
+Public Class,org.apache.commons.collections.TestMultiHashMap,81,89,89,Very Low
+Private Static Class,org.apache.commons.collections.TestMultiHashMap.MapPair,0,0,0,High
+Public Class,org.apache.commons.collections.TestPredicateUtils,0,0,0,High
+Public Class,org.apache.commons.collections.TestReferenceMap,82,82,82,Very Low
+Public Class,org.apache.commons.collections.TestSequencedHashMap,53,53,53,Low
+Public Class,org.apache.commons.collections.TestSetUtils,0,0,0,High
+Anonymous Class,org.apache.commons.collections.TestSetUtils.testpredicatedSet.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.TestStaticBucketMap,0,0,0,High
+Public Class,org.apache.commons.collections.TestTransformerUtils,0,0,0,High
+Public Class,org.apache.commons.collections.TestTreeBag,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.TestTreeMap,50,50,50,Medium
+Public Abstract Class,org.apache.commons.collections.TestTypedCollection,0,0,0,High
+Public Class,org.apache.commons.collections.TestUnboundedFifoBuffer,0,0,0,High
+Public Interface,org.apache.commons.collections.Transformer,0,0,0,High
+Public Class,org.apache.commons.collections.TransformerUtils,0,0,0,High
+Public Class,org.apache.commons.collections.TreeBag,0,0,0,High
+Public Class,org.apache.commons.collections.UnboundedFifoBuffer,23,50,50,Medium
+Anonymous Class,org.apache.commons.collections.UnboundedFifoBuffer.iterator.(Anon_1),17,17,17,High
+Public Interface,org.apache.commons.collections.Unmodifiable,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bag.AbstractBagDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bag.AbstractMapBag,61,75,75,Low
+Static Class,org.apache.commons.collections.bag.AbstractMapBag.BagIterator,25,25,25,High
+Protected Static Class,org.apache.commons.collections.bag.AbstractMapBag.MutableInteger,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bag.AbstractSortedBagDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bag.AbstractTestBag,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bag.AbstractTestSortedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.HashBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.PredicatedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.PredicatedSortedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.SynchronizedBag,0,0,0,High
+Class,org.apache.commons.collections.bag.SynchronizedBag.SynchronizedBagSet,0,0,0,High
+Public Class,org.apache.commons.collections.bag.SynchronizedSortedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestHashBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestPredicatedBag,91,91,91,Very Low
+Anonymous Class,org.apache.commons.collections.bag.TestPredicatedBag.stringPredicate.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestPredicatedSortedBag,90,90,90,Very Low
+Anonymous Class,org.apache.commons.collections.bag.TestPredicatedSortedBag.stringPredicate.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestTransformedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestTransformedSortedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestTreeBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TestTypedBag,83,90,90,Very Low
+Public Class,org.apache.commons.collections.bag.TestTypedSortedBag,86,86,86,Very Low
+Public Class,org.apache.commons.collections.bag.TransformedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TransformedSortedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TreeBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TypedBag,0,0,0,High
+Public Class,org.apache.commons.collections.bag.TypedSortedBag,0,0,0,High
+Public Final Class,org.apache.commons.collections.bag.UnmodifiableBag,0,0,0,High
+Public Final Class,org.apache.commons.collections.bag.UnmodifiableSortedBag,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractBidiMapDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap,83,83,83,Very Low
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.BidiMapIterator,47,47,47,Medium
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.EntrySet,0,0,0,High
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.EntrySetIterator,22,22,22,High
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.KeySet,0,0,0,High
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.KeySetIterator,33,33,33,Medium
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.MapEntry,0,0,0,High
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.Values,0,0,0,High
+Protected Static Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.ValuesIterator,33,33,33,Medium
+Protected Static Abstract Class,org.apache.commons.collections.bidimap.AbstractDualBidiMap.View,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractOrderedBidiMapDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractSortedBidiMapDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractTestBidiMap,61,68,68,Low
+Public Class,org.apache.commons.collections.bidimap.AbstractTestBidiMap.TestBidiMapEntrySet,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.AbstractTestBidiMap.TestBidiMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.AbstractTestBidiMap.TestInverseBidiMap,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.AbstractTestOrderedBidiMap.TestBidiOrderedMapIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.bidimap.AbstractTestSortedBidiMap,90,90,90,Very Low
+Public Class,org.apache.commons.collections.bidimap.DualHashBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.DualTreeBidiMap,67,72,72,Low
+Protected Static Class,org.apache.commons.collections.bidimap.DualTreeBidiMap.BidiOrderedMapIterator,42,42,42,Medium
+Protected Static Class,org.apache.commons.collections.bidimap.DualTreeBidiMap.ViewMap,17,17,17,High
+Public Class,org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator,0,0,0,High
+Private Static Final Class,org.apache.commons.collections.bidimap.TestAbstractOrderedBidiMapDecorator.TestOrderedBidiMap,67,67,67,Low
+Public Class,org.apache.commons.collections.bidimap.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestDualHashBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestDualTreeBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestDualTreeBidiMap2,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestTreeBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestUnmodifiableBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestUnmodifiableOrderedBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TestUnmodifiableSortedBidiMap,0,0,0,High
+Public Class,org.apache.commons.collections.bidimap.TreeBidiMap,87,94,94,Very Low
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.EntryView,0,0,0,High
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.Inverse,73,73,73,Low
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.Node,81,81,81,Very Low
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.View,33,33,33,Medium
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.ViewIterator,37,41,41,Medium
+Static Class,org.apache.commons.collections.bidimap.TreeBidiMap.ViewMapIterator,50,50,50,Medium
+Public Final Class,org.apache.commons.collections.bidimap.UnmodifiableBidiMap,92,92,92,Very Low
+Public Final Class,org.apache.commons.collections.bidimap.UnmodifiableOrderedBidiMap,86,93,93,Very Low
+Public Final Class,org.apache.commons.collections.bidimap.UnmodifiableSortedBidiMap,83,94,94,Very Low
+Public Abstract Class,org.apache.commons.collections.buffer.AbstractBufferDecorator,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.BlockingBuffer,40,60,60,Low
+Public Class,org.apache.commons.collections.buffer.BoundedBuffer,30,75,75,Low
+Private Class,org.apache.commons.collections.buffer.BoundedBuffer.NotifyingIterator,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.BoundedFifoBuffer,41,63,63,Low
+Anonymous Class,org.apache.commons.collections.buffer.BoundedFifoBuffer.iterator.(Anon_1),22,22,22,High
+Public Class,org.apache.commons.collections.buffer.CircularFifoBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.PredicatedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.PriorityBuffer,42,72,72,Low
+Anonymous Class,org.apache.commons.collections.buffer.PriorityBuffer.iterator.(Anon_1),17,17,17,High
+Public Class,org.apache.commons.collections.buffer.SynchronizedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestBlockingBuffer,0,0,0,High
+Protected Static Class,org.apache.commons.collections.buffer.TestBlockingBuffer.DelayedAdd,11,11,11,High
+Protected Static Class,org.apache.commons.collections.buffer.TestBlockingBuffer.DelayedAddAll,11,11,11,High
+Protected Static Class,org.apache.commons.collections.buffer.TestBlockingBuffer.MyBuffer,0,0,0,High
+Protected Static Class,org.apache.commons.collections.buffer.TestBlockingBuffer.ReadThread,32,32,32,Medium
+Public Class,org.apache.commons.collections.buffer.TestBoundedBuffer,0,0,0,High
+Private Class,org.apache.commons.collections.buffer.TestBoundedBuffer.DelayedIteratorRemove,0,33,33,Medium
+Private Class,org.apache.commons.collections.buffer.TestBoundedBuffer.DelayedRemove,0,33,33,Medium
+Public Class,org.apache.commons.collections.buffer.TestBoundedFifoBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestBoundedFifoBuffer2,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestCircularFifoBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestPredicatedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestPriorityBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestSynchronizedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestTransformedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestUnboundedFifoBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TestUnmodifiableBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TransformedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.TypedBuffer,0,0,0,High
+Public Class,org.apache.commons.collections.buffer.UnboundedFifoBuffer,19,50,50,Medium
+Anonymous Class,org.apache.commons.collections.buffer.UnboundedFifoBuffer.iterator.(Anon_1),17,17,17,High
+Public Final Class,org.apache.commons.collections.buffer.UnmodifiableBuffer,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.collection.AbstractCollectionDecorator,5,5,5,High
+Public Abstract Class,org.apache.commons.collections.collection.AbstractSerializableCollectionDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.collection.AbstractTestCollection,45,57,57,Low
+Public Class,org.apache.commons.collections.collection.CompositeCollection,46,59,59,Low
+Public Interface,org.apache.commons.collections.collection.CompositeCollection.CollectionMutator,0,0,0,High
+Public Class,org.apache.commons.collections.collection.PredicatedCollection,0,60,60,Low
+Public Class,org.apache.commons.collections.collection.SynchronizedCollection,3,8,8,High
+Public Class,org.apache.commons.collections.collection.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.collection.TestCompositeCollection,41,52,52,Low
+Anonymous Class,org.apache.commons.collections.collection.TestCompositeCollection.setUpMutatorTest.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.collection.TestCompositeCollection.testAddAllMutator.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.collection.TestCompositeCollection.testAddMutator.(Anon_3),0,0,0,High
+Public Class,org.apache.commons.collections.collection.TestPredicatedCollection,81,88,88,Very Low
+Anonymous Class,org.apache.commons.collections.collection.TestPredicatedCollection.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.collection.TestSynchronizedCollection,0,0,0,High
+Public Class,org.apache.commons.collections.collection.TestTransformedCollection,0,0,0,High
+Private Static Class,org.apache.commons.collections.collection.TestTransformedCollection.StringToInteger,0,0,0,High
+Public Class,org.apache.commons.collections.collection.TestUnmodifiableCollection,0,0,0,High
+Public Class,org.apache.commons.collections.collection.TransformedCollection,33,67,67,Low
+Public Class,org.apache.commons.collections.collection.TypedCollection,0,0,0,High
+Public Final Class,org.apache.commons.collections.collection.UnmodifiableBoundedCollection,0,0,0,High
+Public Final Class,org.apache.commons.collections.collection.UnmodifiableCollection,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.comparators.AbstractTestComparator,0,0,0,High
+Public Final Class,org.apache.commons.collections.comparators.BooleanComparator,30,50,50,Medium
+Public Class,org.apache.commons.collections.comparators.ComparableComparator,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.ComparatorChain,35,61,61,Low
+Public Class,org.apache.commons.collections.comparators.FixedOrderComparator,53,78,78,Very Low
+Public Class,org.apache.commons.collections.comparators.NullComparator,0,43,43,Medium
+Public Class,org.apache.commons.collections.comparators.ReverseComparator,0,20,20,High
+Public Class,org.apache.commons.collections.comparators.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TestBooleanComparator,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TestComparableComparator,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TestComparatorChain,0,0,0,High
+Public Static Class,org.apache.commons.collections.comparators.TestComparatorChain.ColumnComparator,0,0,0,High
+Public Static Class,org.apache.commons.collections.comparators.TestComparatorChain.PseudoRow,0,25,25,High
+Anonymous Class,org.apache.commons.collections.comparators.TestComparatorChain.testComparatorChainOnMinvaluedCompatator.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TestFixedOrderComparator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.comparators.TestNullComparator,0,0,0,High
+Public Static Class,org.apache.commons.collections.comparators.TestNullComparator.TestNullComparator1,0,0,0,High
+Public Static Class,org.apache.commons.collections.comparators.TestNullComparator.TestNullComparator2,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TestReverseComparator,0,0,0,High
+Public Class,org.apache.commons.collections.comparators.TransformingComparator,0,33,33,Medium
+Public Final Class,org.apache.commons.collections.functors.AllPredicate,0,40,40,Medium
+Public Final Class,org.apache.commons.collections.functors.AndPredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.AnyPredicate,0,40,40,Medium
+Public Class,org.apache.commons.collections.functors.ChainedClosure,0,50,50,Medium
+Public Class,org.apache.commons.collections.functors.ChainedTransformer,0,50,50,Medium
+Public Class,org.apache.commons.collections.functors.CloneTransformer,0,0,0,High
+Public Class,org.apache.commons.collections.functors.ClosureTransformer,0,25,25,High
+Public Class,org.apache.commons.collections.functors.ConstantFactory,0,25,25,High
+Public Class,org.apache.commons.collections.functors.ConstantTransformer,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.EqualPredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.ExceptionClosure,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.ExceptionFactory,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.ExceptionPredicate,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.ExceptionTransformer,0,0,0,High
+Public Class,org.apache.commons.collections.functors.FactoryTransformer,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.FalsePredicate,0,0,0,High
+Public Class,org.apache.commons.collections.functors.ForClosure,20,40,40,Medium
+Class,org.apache.commons.collections.functors.FunctorUtils,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.IdentityPredicate,0,25,25,High
+Public Class,org.apache.commons.collections.functors.IfClosure,25,63,63,Low
+Public Final Class,org.apache.commons.collections.functors.InstanceofPredicate,0,25,25,High
+Public Class,org.apache.commons.collections.functors.InstantiateFactory,5,45,45,Medium
+Public Class,org.apache.commons.collections.functors.InstantiateTransformer,0,25,25,High
+Public Class,org.apache.commons.collections.functors.InvokerTransformer,0,40,40,Medium
+Public Final Class,org.apache.commons.collections.functors.MapTransformer,0,25,25,High
+Public Class,org.apache.commons.collections.functors.NOPClosure,0,0,0,High
+Public Class,org.apache.commons.collections.functors.NOPTransformer,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.NonePredicate,0,40,40,Medium
+Public Final Class,org.apache.commons.collections.functors.NotNullPredicate,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.NotPredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.NullIsExceptionPredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.NullIsFalsePredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.NullIsTruePredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.NullPredicate,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.OnePredicate,0,40,40,Medium
+Public Final Class,org.apache.commons.collections.functors.OrPredicate,0,25,25,High
+Public Interface,org.apache.commons.collections.functors.PredicateDecorator,0,0,0,High
+Public Class,org.apache.commons.collections.functors.PredicateTransformer,0,25,25,High
+Public Class,org.apache.commons.collections.functors.PrototypeFactory,0,0,0,High
+Static Class,org.apache.commons.collections.functors.PrototypeFactory.PrototypeCloneFactory,0,0,0,High
+Static Class,org.apache.commons.collections.functors.PrototypeFactory.PrototypeSerializationFactory,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.StringValueTransformer,0,0,0,High
+Public Class,org.apache.commons.collections.functors.SwitchClosure,29,57,57,Low
+Public Class,org.apache.commons.collections.functors.SwitchTransformer,29,57,57,Low
+Public Final Class,org.apache.commons.collections.functors.TransformedPredicate,20,40,40,Medium
+Public Class,org.apache.commons.collections.functors.TransformerClosure,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.TransformerPredicate,0,25,25,High
+Public Final Class,org.apache.commons.collections.functors.TruePredicate,0,0,0,High
+Public Final Class,org.apache.commons.collections.functors.UniquePredicate,67,67,67,Low
+Public Class,org.apache.commons.collections.functors.WhileClosure,33,50,50,Medium
+Abstract Class,org.apache.commons.collections.iterators.AbstractEmptyIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.AbstractIteratorDecorator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.AbstractListIteratorDecorator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.AbstractMapIteratorDecorator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.AbstractOrderedMapIteratorDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.iterators.AbstractTestIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.iterators.AbstractTestListIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.iterators.AbstractTestMapIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.iterators.AbstractTestOrderedMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.ArrayIterator,43,61,61,Low
+Public Class,org.apache.commons.collections.iterators.ArrayListIterator,67,67,67,Low
+Public Class,org.apache.commons.collections.iterators.CollatingIterator,54,77,77,Very Low
+Public Class,org.apache.commons.collections.iterators.EmptyIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.EmptyListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.EmptyMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.EmptyOrderedIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.EmptyOrderedMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.EntrySetMapIterator,53,53,53,Low
+Public Class,org.apache.commons.collections.iterators.EnumerationIterator,33,58,58,Low
+Public Class,org.apache.commons.collections.iterators.FilterIterator,43,55,55,Low
+Public Class,org.apache.commons.collections.iterators.FilterListIterator,65,78,78,Very Low
+Public Class,org.apache.commons.collections.iterators.IteratorChain,55,79,79,Very Low
+Public Class,org.apache.commons.collections.iterators.IteratorEnumeration,17,17,17,High
+Public Class,org.apache.commons.collections.iterators.ListIteratorWrapper,68,68,68,Low
+Public Class,org.apache.commons.collections.iterators.LoopingIterator,25,33,33,Medium
+Public Class,org.apache.commons.collections.iterators.LoopingListIterator,25,29,29,Medium
+Public Class,org.apache.commons.collections.iterators.ObjectArrayIterator,46,65,65,Low
+Public Class,org.apache.commons.collections.iterators.ObjectArrayListIterator,67,67,67,Low
+Public Class,org.apache.commons.collections.iterators.ObjectGraphIterator,38,63,63,Low
+Public Class,org.apache.commons.collections.iterators.ProxyIterator,14,57,57,Low
+Public Class,org.apache.commons.collections.iterators.ProxyListIterator,8,77,77,Very Low
+Public Class,org.apache.commons.collections.iterators.ReverseListIterator,45,45,45,Medium
+Public Class,org.apache.commons.collections.iterators.SingletonIterator,42,50,50,Medium
+Public Class,org.apache.commons.collections.iterators.SingletonListIterator,50,50,50,Medium
+Public Class,org.apache.commons.collections.iterators.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestArrayIterator,63,75,75,Low
+Public Class,org.apache.commons.collections.iterators.TestArrayIterator2,67,67,67,Low
+Public Class,org.apache.commons.collections.iterators.TestArrayListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestArrayListIterator2,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestCollatingIterator,44,44,44,Medium
+Public Class,org.apache.commons.collections.iterators.TestFilterIterator,56,73,73,Low
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterIterator.makeBlockAllFilter.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterIterator.makePassThroughFilter.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterIterator.verifyElementsInPredicate.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestFilterListIterator,75,78,78,Very Low
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_2),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_5),0,0,0,High
+Anonymous Class,org.apache.commons.collections.iterators.TestFilterListIterator.setUp.(Anon_6),0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestIteratorChain,65,73,73,Low
+Anonymous Class,org.apache.commons.collections.iterators.TestIteratorChain.testRemoveFromFilteredIterator.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestListIteratorWrapper,56,75,75,Low
+Public Class,org.apache.commons.collections.iterators.TestLoopingIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestLoopingListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestObjectArrayIterator,77,77,77,Very Low
+Public Class,org.apache.commons.collections.iterators.TestObjectArrayListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestObjectArrayListIterator2,86,86,86,Very Low
+Public Class,org.apache.commons.collections.iterators.TestObjectGraphIterator,72,72,72,Low
+Static Class,org.apache.commons.collections.iterators.TestObjectGraphIterator.Branch,0,0,0,High
+Static Class,org.apache.commons.collections.iterators.TestObjectGraphIterator.Forest,0,0,0,High
+Static Class,org.apache.commons.collections.iterators.TestObjectGraphIterator.Leaf,0,0,0,High
+Static Class,org.apache.commons.collections.iterators.TestObjectGraphIterator.LeafFinder,0,0,0,High
+Static Class,org.apache.commons.collections.iterators.TestObjectGraphIterator.Tree,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestReverseListIterator,56,89,89,Very Low
+Public Class,org.apache.commons.collections.iterators.TestSingletonIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestSingletonIterator2,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestSingletonListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestUniqueFilterIterator,67,75,75,Low
+Public Class,org.apache.commons.collections.iterators.TestUnmodifiableIterator,86,86,86,Very Low
+Public Class,org.apache.commons.collections.iterators.TestUnmodifiableListIterator,89,89,89,Very Low
+Public Class,org.apache.commons.collections.iterators.TestUnmodifiableMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TestUnmodifiableOrderedMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.iterators.TransformIterator,45,50,50,Medium
+Public Class,org.apache.commons.collections.iterators.UniqueFilterIterator,0,0,0,High
+Public Final Class,org.apache.commons.collections.iterators.UnmodifiableIterator,20,40,40,Medium
+Public Final Class,org.apache.commons.collections.iterators.UnmodifiableListIterator,27,36,36,Medium
+Public Final Class,org.apache.commons.collections.iterators.UnmodifiableMapIterator,25,38,38,Medium
+Public Final Class,org.apache.commons.collections.iterators.UnmodifiableOrderedMapIterator,20,30,30,Medium
+Public Abstract Class,org.apache.commons.collections.keyvalue.AbstractKeyValue,25,50,50,Medium
+Public Abstract Class,org.apache.commons.collections.keyvalue.AbstractMapEntry,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.keyvalue.AbstractMapEntryDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.keyvalue.AbstractTestMapEntry,63,63,63,Low
+Public Class,org.apache.commons.collections.keyvalue.DefaultKeyValue,0,0,0,High
+Public Final Class,org.apache.commons.collections.keyvalue.DefaultMapEntry,0,0,0,High
+Public Class,org.apache.commons.collections.keyvalue.MultiKey,25,67,67,Low
+Public Class,org.apache.commons.collections.keyvalue.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.keyvalue.TestDefaultKeyValue,55,55,55,Low
+Public Class,org.apache.commons.collections.keyvalue.TestDefaultMapEntry,0,0,0,High
+Public Class,org.apache.commons.collections.keyvalue.TestMultiKey,64,64,64,Low
+Public Class,org.apache.commons.collections.keyvalue.TestTiedMapEntry,0,0,0,High
+Public Class,org.apache.commons.collections.keyvalue.TestUnmodifiableMapEntry,0,0,0,High
+Public Class,org.apache.commons.collections.keyvalue.TiedMapEntry,7,43,43,Medium
+Public Final Class,org.apache.commons.collections.keyvalue.UnmodifiableMapEntry,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.list.AbstractLinkedList,50,83,83,Very Low
+Protected Static Class,org.apache.commons.collections.list.AbstractLinkedList.LinkedListIterator,40,53,53,Low
+Protected Static Class,org.apache.commons.collections.list.AbstractLinkedList.LinkedSubList,20,43,43,Medium
+Protected Static Class,org.apache.commons.collections.list.AbstractLinkedList.LinkedSubListIterator,17,17,17,High
+Protected Static Class,org.apache.commons.collections.list.AbstractLinkedList.Node,56,56,56,Low
+Public Abstract Class,org.apache.commons.collections.list.AbstractListDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.list.AbstractSerializableListDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.list.AbstractTestList,0,0,0,High
+Public Static Class,org.apache.commons.collections.list.AbstractTestList.BulkTestSubList,8,8,8,High
+Public Class,org.apache.commons.collections.list.AbstractTestList.TestListIterator,0,0,0,High
+Anonymous Class,org.apache.commons.collections.list.AbstractTestList.testListEquals.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.list.CursorableLinkedList,25,70,70,Low
+Public Static Class,org.apache.commons.collections.list.CursorableLinkedList.Cursor,67,70,70,Low
+Protected Static Class,org.apache.commons.collections.list.CursorableLinkedList.SubCursor,17,17,17,High
+Public Class,org.apache.commons.collections.list.FixedSizeList,0,0,0,High
+Static Class,org.apache.commons.collections.list.FixedSizeList.FixedSizeListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.list.GrowthList,0,0,0,High
+Public Class,org.apache.commons.collections.list.LazyList,0,25,25,High
+Public Class,org.apache.commons.collections.list.NodeCachingLinkedList,40,67,67,Low
+Public Class,org.apache.commons.collections.list.PredicatedList,0,0,0,High
+Protected Class,org.apache.commons.collections.list.PredicatedList.PredicatedListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.list.SetUniqueList,11,21,21,High
+Static Class,org.apache.commons.collections.list.SetUniqueList.SetListIterator,33,33,33,Medium
+Static Class,org.apache.commons.collections.list.SetUniqueList.SetListListIterator,50,50,50,Medium
+Public Class,org.apache.commons.collections.list.SynchronizedList,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.list.TestAbstractLinkedList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestCursorableLinkedList,9,9,9,High
+Public Class,org.apache.commons.collections.list.TestFixedSizeList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestGrowthList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestNodeCachingLinkedList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestPredicatedList,75,92,92,Very Low
+Anonymous Class,org.apache.commons.collections.list.TestPredicatedList.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.list.TestSetUniqueList,86,91,91,Very Low
+Public Class,org.apache.commons.collections.list.TestSynchronizedList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestTransformedList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestTreeList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestTypedList,0,0,0,High
+Public Class,org.apache.commons.collections.list.TestUnmodifiableList,73,81,81,Very Low
+Public Class,org.apache.commons.collections.list.TransformedList,0,0,0,High
+Protected Class,org.apache.commons.collections.list.TransformedList.TransformedListIterator,0,0,0,High
+Public Class,org.apache.commons.collections.list.TreeList,37,63,63,Low
+Static Class,org.apache.commons.collections.list.TreeList.AVLNode,35,70,70,Low
+Static Class,org.apache.commons.collections.list.TreeList.TreeListIterator,42,50,50,Medium
+Public Class,org.apache.commons.collections.list.TypedList,0,0,0,High
+Public Final Class,org.apache.commons.collections.list.UnmodifiableList,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractHashedMap,79,87,87,Very Low
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.EntrySet,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.EntrySetIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.HashEntry,54,75,75,Low
+Protected Static Abstract Class,org.apache.commons.collections.map.AbstractHashedMap.HashIterator,50,50,50,Medium
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.HashMapIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.KeySet,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.KeySetIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.Values,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractHashedMap.ValuesIterator,0,0,0,High
+Abstract Class,org.apache.commons.collections.map.AbstractInputCheckedMapDecorator,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractInputCheckedMapDecorator.EntrySet,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractInputCheckedMapDecorator.EntrySetIterator,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractInputCheckedMapDecorator.MapEntry,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractLinkedMap,61,61,61,Low
+Protected Static Class,org.apache.commons.collections.map.AbstractLinkedMap.EntrySetIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractLinkedMap.KeySetIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractLinkedMap.LinkEntry,100,100,100,Very Low
+Protected Static Abstract Class,org.apache.commons.collections.map.AbstractLinkedMap.LinkIterator,36,36,36,Medium
+Protected Static Class,org.apache.commons.collections.map.AbstractLinkedMap.LinkMapIterator,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.AbstractLinkedMap.ValuesIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractMapDecorator,6,6,6,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractOrderedMapDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractReferenceMap,80,89,89,Very Low
+Protected Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceEntry,11,11,11,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceEntrySet,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceEntrySetIterator,43,64,64,Low
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceKeySet,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceKeySetIterator,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceMapIterator,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceValues,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.ReferenceValuesIterator,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.SoftRef,0,0,0,High
+Static Class,org.apache.commons.collections.map.AbstractReferenceMap.WeakRef,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractSortedMapDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractTestIterableMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractTestIterableMap.InnerTestMapIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractTestMap,51,84,84,Very Low
+Public Class,org.apache.commons.collections.map.AbstractTestMap.TestMapEntrySet,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractTestMap.TestMapKeySet,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractTestMap.TestMapValues,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractTestOrderedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.AbstractTestOrderedMap.InnerTestOrderedMapIterator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.map.AbstractTestSortedMap,0,0,0,High
+Public Static Class,org.apache.commons.collections.map.AbstractTestSortedMap.TestHeadMap,20,20,20,High
+Public Static Class,org.apache.commons.collections.map.AbstractTestSortedMap.TestSubMap,30,30,30,Medium
+Public Static Class,org.apache.commons.collections.map.AbstractTestSortedMap.TestTailMap,50,50,50,Medium
+Public Static Abstract Class,org.apache.commons.collections.map.AbstractTestSortedMap.TestViewMap,81,81,81,Very Low
+Public Class,org.apache.commons.collections.map.CaseInsensitiveMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.CompositeMap,41,55,55,Low
+Public Interface,org.apache.commons.collections.map.CompositeMap.MapMutator,0,0,0,High
+Public Class,org.apache.commons.collections.map.DefaultedMap,25,63,63,Low
+Public Class,org.apache.commons.collections.map.FixedSizeMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.FixedSizeSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.Flat3Map,46,60,60,Low
+Static Class,org.apache.commons.collections.map.Flat3Map.EntrySet,0,0,0,High
+Static Class,org.apache.commons.collections.map.Flat3Map.EntrySetIterator,10,33,33,Medium
+Static Class,org.apache.commons.collections.map.Flat3Map.FlatMapIterator,15,26,26,Medium
+Static Class,org.apache.commons.collections.map.Flat3Map.KeySet,0,0,0,High
+Static Class,org.apache.commons.collections.map.Flat3Map.KeySetIterator,0,0,0,High
+Static Class,org.apache.commons.collections.map.Flat3Map.Values,0,0,0,High
+Static Class,org.apache.commons.collections.map.Flat3Map.ValuesIterator,0,0,0,High
+Public Class,org.apache.commons.collections.map.HashedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.IdentityMap,0,0,0,High
+Protected Static Class,org.apache.commons.collections.map.IdentityMap.IdentityEntry,0,0,0,High
+Public Class,org.apache.commons.collections.map.LRUMap,43,76,76,Very Low
+Public Class,org.apache.commons.collections.map.LazyMap,29,57,57,Low
+Public Class,org.apache.commons.collections.map.LazySortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.LinkedMap,0,0,0,High
+Static Class,org.apache.commons.collections.map.LinkedMap.LinkedMapList,44,44,44,Medium
+Public Class,org.apache.commons.collections.map.ListOrderedMap,29,46,46,Medium
+Static Class,org.apache.commons.collections.map.ListOrderedMap.EntrySetView,42,72,72,Low
+Static Class,org.apache.commons.collections.map.ListOrderedMap.KeySetView,0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.ListOrderedMap.KeySetView.iterator.(Anon_2),0,0,0,High
+Static Class,org.apache.commons.collections.map.ListOrderedMap.ListOrderedIterator,17,17,17,High
+Static Class,org.apache.commons.collections.map.ListOrderedMap.ListOrderedMapEntry,0,0,0,High
+Static Class,org.apache.commons.collections.map.ListOrderedMap.ListOrderedMapIterator,34,39,39,Medium
+Static Class,org.apache.commons.collections.map.ListOrderedMap.ValuesView,0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.ListOrderedMap.ValuesView.iterator.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.map.MultiKeyMap,18,29,29,Medium
+Public Class,org.apache.commons.collections.map.MultiValueMap,72,92,92,Very Low
+Private Static Class,org.apache.commons.collections.map.MultiValueMap.ReflectionFactory,0,0,0,High
+Private Class,org.apache.commons.collections.map.MultiValueMap.Values,0,0,0,High
+Private Class,org.apache.commons.collections.map.MultiValueMap.ValuesIterator,33,33,33,Medium
+Public Class,org.apache.commons.collections.map.PredicatedMap,33,67,67,Low
+Public Class,org.apache.commons.collections.map.PredicatedSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.ReferenceIdentityMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.ReferenceMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.SingletonMap,53,79,79,Very Low
+Static Class,org.apache.commons.collections.map.SingletonMap.SingletonMapIterator,45,52,52,Low
+Static Class,org.apache.commons.collections.map.SingletonMap.SingletonValues,50,50,50,Medium
+Public Final Class,org.apache.commons.collections.map.StaticBucketMap,24,45,45,Medium
+Private Class,org.apache.commons.collections.map.StaticBucketMap.EntryIterator,25,58,58,Low
+Private Class,org.apache.commons.collections.map.StaticBucketMap.EntrySet,0,0,0,High
+Private Class,org.apache.commons.collections.map.StaticBucketMap.KeyIterator,0,0,0,High
+Private Class,org.apache.commons.collections.map.StaticBucketMap.KeySet,0,0,0,High
+Private Static Final Class,org.apache.commons.collections.map.StaticBucketMap.Lock,0,0,0,High
+Private Static Final Class,org.apache.commons.collections.map.StaticBucketMap.Node,53,53,53,Low
+Private Class,org.apache.commons.collections.map.StaticBucketMap.ValueIterator,0,0,0,High
+Private Class,org.apache.commons.collections.map.StaticBucketMap.Values,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestCaseInsensitiveMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestCompositeMap,73,73,73,Low
+Anonymous Class,org.apache.commons.collections.map.TestCompositeMap.makeEmptyMap.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestCompositeMap.testPut.(Anon_3),0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestCompositeMap.testPutAll.(Anon_4),0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestCompositeMap.testResolveCollision.(Anon_2),0,0,0,High
+Public Class,org.apache.commons.collections.map.TestDefaultedMap,0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestDefaultedMap.testMapGet4.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.map.TestFixedSizeMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestFixedSizeSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestFlat3Map,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestFlat3Map.TestFlatMapIterator,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestHashedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestIdentityMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestLRUMap,0,0,0,High
+Static Class,org.apache.commons.collections.map.TestLRUMap.MockLRUMapSubclass,50,50,50,Medium
+Static Class,org.apache.commons.collections.map.TestLRUMap.MockLRUMapSubclassBlocksRemove,0,0,0,High
+Static Class,org.apache.commons.collections.map.TestLRUMap.MockLRUMapSubclassFirstBlocksRemove,0,0,0,High
+Static Class,org.apache.commons.collections.map.TestLRUMap.SingleHashCode,33,33,33,Medium
+Public Class,org.apache.commons.collections.map.TestLazyMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestLazySortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestLinkedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestLinkedMap.TestListView,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestListOrderedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestListOrderedMap.TestKeyListView,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestListOrderedMap.TestValueListView,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestListOrderedMap2,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestListOrderedMap2.TestListView,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestMultiKeyMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestMultiValueMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestPredicatedMap,0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestPredicatedMap.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.map.TestPredicatedSortedMap,0,0,0,High
+Anonymous Class,org.apache.commons.collections.map.TestPredicatedSortedMap.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.map.TestReferenceIdentityMap,93,93,93,Very Low
+Public Class,org.apache.commons.collections.map.TestReferenceMap,91,91,91,Very Low
+Public Class,org.apache.commons.collections.map.TestSingletonMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestStaticBucketMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestTransformedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestTransformedSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestUnmodifiableMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestUnmodifiableOrderedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TestUnmodifiableSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TransformedMap,33,75,75,Low
+Public Class,org.apache.commons.collections.map.TransformedSortedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TypedMap,0,0,0,High
+Public Class,org.apache.commons.collections.map.TypedSortedMap,0,0,0,High
+Public Final Class,org.apache.commons.collections.map.UnmodifiableEntrySet,0,0,0,High
+Static Final Class,org.apache.commons.collections.map.UnmodifiableEntrySet.UnmodifiableEntry,0,0,0,High
+Static Final Class,org.apache.commons.collections.map.UnmodifiableEntrySet.UnmodifiableEntrySetIterator,0,0,0,High
+Public Final Class,org.apache.commons.collections.map.UnmodifiableMap,0,0,0,High
+Public Final Class,org.apache.commons.collections.map.UnmodifiableOrderedMap,0,0,0,High
+Public Final Class,org.apache.commons.collections.map.UnmodifiableSortedMap,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.set.AbstractSerializableSetDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.set.AbstractSetDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.set.AbstractSortedSetDecorator,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.set.AbstractTestSet,0,0,0,High
+Public Abstract Class,org.apache.commons.collections.set.AbstractTestSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.AbstractTestSortedSet.TestSortedSetSubSet,72,80,80,Very Low
+Public Class,org.apache.commons.collections.set.CompositeSet,0,0,0,High
+Public Interface,org.apache.commons.collections.set.CompositeSet.SetMutator,0,0,0,High
+Public Class,org.apache.commons.collections.set.ListOrderedSet,0,23,23,High
+Static Class,org.apache.commons.collections.set.ListOrderedSet.OrderedSetIterator,33,33,33,Medium
+Public Final Class,org.apache.commons.collections.set.MapBackedSet,36,47,47,Medium
+Public Class,org.apache.commons.collections.set.PredicatedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.PredicatedSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.SynchronizedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.SynchronizedSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestAll,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestCompositeSet,0,0,0,High
+Anonymous Class,org.apache.commons.collections.set.TestCompositeSet.makeEmptySet.(Anon_1),0,0,0,High
+Anonymous Class,org.apache.commons.collections.set.TestCompositeSet.testFailedCollisionResolution.(Anon_2),0,0,0,High
+Public Class,org.apache.commons.collections.set.TestListOrderedSet,0,0,0,High
+Static Class,org.apache.commons.collections.set.TestListOrderedSet.A,0,0,0,High
+Static Class,org.apache.commons.collections.set.TestListOrderedSet.B,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestListOrderedSet2,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestMapBackedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestMapBackedSet2,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestPredicatedSet,77,91,91,Very Low
+Anonymous Class,org.apache.commons.collections.set.TestPredicatedSet.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.set.TestPredicatedSortedSet,68,86,86,Very Low
+Anonymous Class,org.apache.commons.collections.set.TestPredicatedSortedSet.(Anon_1),0,0,0,High
+Public Class,org.apache.commons.collections.set.TestSynchronizedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestSynchronizedSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestTransformedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestTransformedSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestTypedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestTypedSortedSet,40,80,80,Very Low
+Public Class,org.apache.commons.collections.set.TestUnmodifiableSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TestUnmodifiableSortedSet,71,79,79,Very Low
+Public Class,org.apache.commons.collections.set.TransformedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TransformedSortedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TypedSet,0,0,0,High
+Public Class,org.apache.commons.collections.set.TypedSortedSet,0,0,0,High
+Public Final Class,org.apache.commons.collections.set.UnmodifiableSet,0,0,0,High
+Public Final Class,org.apache.commons.collections.set.UnmodifiableSortedSet,0,0,0,High

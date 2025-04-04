@@ -2,51 +2,88 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import os
 
-def analyze_method_cohesion():
+def analyze_class_cohesion(csv_file='charts.csv'):
     # 1. Read the CSV file
-    print("Reading CSV file...")
-    df = pd.read_csv('chart.csv')
+    print(f"Reading CSV file: {csv_file}...")
+    df = pd.read_csv(csv_file)
     
-    # 2. Filter to only look at methods and extract LCOM from third-last column
-    methods_df = df[df['Kind'].str.contains('Method', na=False)].copy()
-    methods_df['LCOM'] = methods_df.iloc[:, -3]  # Get third-last column
+    # Extract project name from CSV filename
+    project_name = os.path.splitext(os.path.basename(csv_file))[0].capitalize()
+    project_dir = project_name.lower()
     
-    # 3. Look at LCOM distribution
-    print("\nLCOM Analysis for Methods:")
-    print(f"Total number of methods analyzed: {len(methods_df)}")
+    # Create graph and output directories
+    graphs_dir = 'graphs'
+    project_graphs_dir = os.path.join(graphs_dir, project_dir)
+    
+    # Create the directories if they don't exist
+    os.makedirs(project_graphs_dir, exist_ok=True)
+    
+    # 2. Use all classes (no filtering)
+    classes_df = df.copy()
+    
+    # Check for LCOM columns
+    required_columns = ['PercentLackOfCohesion', 'PercentLackOfCohesionModified']
+    missing_columns = [col for col in required_columns if col not in classes_df.columns]
+    
+    if missing_columns:
+        print(f"\nERROR: Missing required columns: {missing_columns}")
+        return None, project_graphs_dir
+    
+    print("\nAnalyzing both LCOM metrics:")
+    print("- PercentLackOfCohesion (LCOM)")
+    print("- PercentLackOfCohesionModified (LCOM*)")
+    
+    # Check for missing values in both columns
+    for col in required_columns:
+        missing_count = classes_df[col].isna().sum()
+        total_count = len(classes_df)
+        print(f"\nMissing values in {col}: {missing_count} out of {total_count} classes ({(missing_count/total_count*100):.1f}%)")
+    
+    # Print sample of LCOM values
+    print("\nSample of LCOM values (first 10 rows):")
+    sample_df = classes_df[['Kind', 'Name', 'PercentLackOfCohesion', 'PercentLackOfCohesionModified']].head(10)
+    print(sample_df)
+    
+    
+
+
+    
+    # Use the PercentLackOfCohesion column for primary LCOM analysis
+    classes_df['LCOM'] = classes_df['PercentLackOfCohesion']
     
     # Calculate LCOM statistics
-    lcom_stats = methods_df['LCOM'].describe()
+    lcom_stats = classes_df['LCOM'].describe()
     print("\nLCOM Statistics:")
     print(lcom_stats)
     
-    # Categorize methods by cohesion level
-    # LCOM interpretation:
-    # 0.0-0.3: High cohesion
-    # 0.3-0.7: Medium cohesion
-    # 0.7-1.0: Low cohesion
-    # >1.0: Very low cohesion
-    methods_df['CohesionLevel'] = pd.cut(
-        methods_df['LCOM'],
-        bins=[-float('inf'), 0.3, 0.7, 1.0, float('inf')],
+    # Categorize classes by cohesion level
+    # LCOM interpretation for class-level analysis:
+    # 0-25: High cohesion
+    # 25-50: Medium cohesion
+    # 50-75: Low cohesion
+    # >75: Very low cohesion
+    classes_df['CohesionLevel'] = pd.cut(
+        classes_df['LCOM'],
+        bins=[-float('inf'), 25, 50, 75, float('inf')],
         labels=['High', 'Medium', 'Low', 'Very Low']
     )
     
     # Calculate percentage distribution
-    cohesion_counts = methods_df['CohesionLevel'].value_counts()
-    cohesion_percentages = (cohesion_counts / len(methods_df) * 100).round(1)
+    cohesion_counts = classes_df['CohesionLevel'].value_counts()
+    cohesion_percentages = (cohesion_counts / len(classes_df) * 100).round(1)
     
     print("\nCohesion Level Distribution:")
     for level in ['High', 'Medium', 'Low', 'Very Low']:
         count = cohesion_counts.get(level, 0)
         percentage = cohesion_percentages.get(level, 0)
-        print(f"{level} Cohesion: {count} methods ({percentage}%)")
+        print(f"{level} Cohesion: {count} classes ({percentage}%)")
     
     # Print summary statistics for each cohesion level
     print("\nLCOM Statistics by Cohesion Level:")
     for level in ['High', 'Medium', 'Low', 'Very Low']:
-        level_stats = methods_df[methods_df['CohesionLevel'] == level]['LCOM'].describe()
+        level_stats = classes_df[classes_df['CohesionLevel'] == level]['LCOM'].describe()
         print(f"\n{level} Cohesion:")
         print(f"  Count: {level_stats['count']}")
         print(f"  Mean LCOM: {level_stats['mean']:.2f}")
@@ -55,18 +92,39 @@ def analyze_method_cohesion():
     
     # Create visualizations
     
-    # 1. LCOM Distribution Histogram
-    plt.figure(figsize=(12, 6))
-    plt.hist(methods_df['LCOM'].dropna(), bins=50, edgecolor='black', alpha=0.7)
-    plt.axvline(x=0.3, color='g', linestyle='--', label='High Cohesion Threshold (0.3)')
-    plt.axvline(x=0.7, color='y', linestyle='--', label='Medium Cohesion Threshold (0.7)')
-    plt.axvline(x=1.0, color='r', linestyle='--', label='Low Cohesion Threshold (1.0)')
+    # 1. LCOM Distribution Histogram - Compare both metrics
+    plt.figure(figsize=(15, 7))
+    
+    # Create a subplot for the original LCOM
+    plt.subplot(1, 2, 1)
+    plt.hist(classes_df['PercentLackOfCohesion'].dropna(), bins=50, edgecolor='black', alpha=0.7, color='blue')
+    plt.axvline(x=25, color='g', linestyle='--', label='High (25)')
+    plt.axvline(x=50, color='y', linestyle='--', label='Medium (50)')
+    plt.axvline(x=75, color='r', linestyle='--', label='Low (75)')
     plt.xlabel('Lack of Cohesion (LCOM)')
-    plt.ylabel('Number of Methods')
-    plt.title('Distribution of Method Cohesion\n(Lower LCOM = Higher Cohesion)')
+    plt.ylabel('Number of Classes')
+    plt.title('LCOM Distribution')
     plt.legend()
     plt.grid(True, alpha=0.3)
-    plt.savefig('cohesion_distribution.png', bbox_inches='tight', dpi=300)
+    
+    # Create a subplot for the modified LCOM
+    plt.subplot(1, 2, 2)
+    plt.hist(classes_df['PercentLackOfCohesionModified'].dropna(), bins=50, edgecolor='black', alpha=0.7, color='green')
+    plt.axvline(x=25, color='g', linestyle='--', label='High (25)')
+    plt.axvline(x=50, color='y', linestyle='--', label='Medium (50)')
+    plt.axvline(x=75, color='r', linestyle='--', label='Low (75)')
+    plt.xlabel('Lack of Cohesion Modified (LCOM*)')
+    plt.ylabel('Number of Classes')
+    plt.title('LCOM* Distribution')
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    
+    plt.suptitle(f'Distribution of Class Cohesion - {project_name} Project\n(Lower LCOM = Higher Cohesion)', fontsize=14)
+    plt.tight_layout()
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    distribution_path = os.path.join(project_graphs_dir, 'cohesion_distribution.png')
+    plt.savefig(distribution_path, bbox_inches='tight', dpi=300)
     plt.close()
     
     # 2. Cohesion Level Bar Plot
@@ -74,8 +132,8 @@ def analyze_method_cohesion():
     colors = ['green', 'yellow', 'orange', 'red']
     ax = cohesion_counts.plot(kind='bar', color=colors)
     plt.xlabel('Cohesion Level')
-    plt.ylabel('Number of Methods')
-    plt.title('Methods by Cohesion Level\n(Higher is Better)')
+    plt.ylabel('Number of Classes')
+    plt.title(f'Classes by Cohesion Level - {project_name} Project\n(Higher is Better)')
     
     # Add percentage labels on top of each bar
     for i, (count, percentage) in enumerate(zip(cohesion_counts, cohesion_percentages)):
@@ -83,17 +141,23 @@ def analyze_method_cohesion():
     
     plt.grid(True, axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig('cohesion_levels.png', bbox_inches='tight', dpi=300)
+    levels_path = os.path.join(project_graphs_dir, 'cohesion_levels.png')
+    plt.savefig(levels_path, bbox_inches='tight', dpi=300)
     plt.close()
     
     # Save detailed results
-    methods_df.to_csv('method_cohesion_analysis.csv', index=False)
+    csv_path = os.path.join(project_graphs_dir, 'class_cohesion_analysis.csv')
+    classes_df.to_csv(csv_path, index=False)
     
-    return methods_df
+    return classes_df, project_graphs_dir
 
 if __name__ == "__main__":
-    result_df = analyze_method_cohesion()
+    # Modify this to process a specific CSV file
+    csv_file = 'Collections.csv'  
+    result_df, output_dir = analyze_class_cohesion(csv_file)
+    
+    project_name = os.path.splitext(os.path.basename(csv_file))[0].capitalize()
     print("\nAnalysis complete. Results saved to:")
-    print("- cohesion_distribution.png (LCOM distribution)")
-    print("- cohesion_levels.png (cohesion level counts)")
-    print("- method_cohesion_analysis.csv (detailed results)")
+    print(f"- {output_dir}/cohesion_distribution.png (LCOM distribution)")
+    print(f"- {output_dir}/cohesion_levels.png (cohesion level counts)")
+    print(f"- {output_dir}/class_cohesion_analysis.csv (detailed results)")
