@@ -1,0 +1,646 @@
+Kind,Name,PercentLackOfCohesionModified,PercentLackOfCohesion
+Public Class,"org.apache.commons.lang3.AnnotationUtils",0,0
+Anonymous Class,"org.apache.commons.lang3.AnnotationUtils.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.AnnotationUtilsTest",84,84
+Public Annotation,"org.apache.commons.lang3.AnnotationUtilsTest.NestAnnotation",0,0
+Public Annotation,"org.apache.commons.lang3.AnnotationUtilsTest.TestAnnotation",0,0
+Anonymous Class,"org.apache.commons.lang3.AnnotationUtilsTest.testGeneratedAnnotationEquivalentToRealAnnotation.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.ArrayUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.add.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.add.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.addAll.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.clone.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.isNotEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.remove.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.removeAll.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.removeElement.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.removeElements.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.subarray.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtils.toArray.T",0,0
+Public Class,"org.apache.commons.lang3.ArrayUtilsAddTest",0,0
+Public Class,"org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest",0,0
+Public Class,"org.apache.commons.lang3.ArrayUtilsRemoveTest",0,0
+Public Class,"org.apache.commons.lang3.ArrayUtilsTest",0,0
+Anonymous Class,"org.apache.commons.lang3.ArrayUtilsTest.testToMap.(Anon_1)",0,0
+Generic Parameter,"org.apache.commons.lang3.ArrayUtilsTest.toArrayPropagatingType.T",0,0
+Public Class,"org.apache.commons.lang3.BitField",36,72
+Public Class,"org.apache.commons.lang3.BitFieldTest",0,0
+Public Class,"org.apache.commons.lang3.BooleanUtils",0,0
+Public Class,"org.apache.commons.lang3.BooleanUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.CharEncoding",0,0
+Public Class,"org.apache.commons.lang3.CharEncodingTest",0,0
+Final Class,"org.apache.commons.lang3.CharRange",39,63
+Private Static Class,"org.apache.commons.lang3.CharRange.CharacterIterator",33,40
+Public Class,"org.apache.commons.lang3.CharRangeTest",0,0
+Public Class,"org.apache.commons.lang3.CharSequenceUtils",0,0
+Public Class,"org.apache.commons.lang3.CharSequenceUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.CharSet",0,25
+Public Class,"org.apache.commons.lang3.CharSetTest",0,0
+Public Class,"org.apache.commons.lang3.CharSetUtils",0,0
+Public Class,"org.apache.commons.lang3.CharSetUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.CharUtils",0,0
+Public Class,"org.apache.commons.lang3.CharUtilsPerfRun",0,0
+Public Class,"org.apache.commons.lang3.CharUtilsTest",0,0
+Class,"org.apache.commons.lang3.ClassNotFoundSerialization",0,0
+Public Class,"org.apache.commons.lang3.ClassUtils",0,0
+Public Class,"org.apache.commons.lang3.ClassUtilsTest",0,0
+Private Static Class,"org.apache.commons.lang3.ClassUtilsTest.CX",0,0
+Private Static Class,"org.apache.commons.lang3.ClassUtilsTest.CY",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.IA",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.IB",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.IC",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.ID",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.IE",0,0
+Private Interface,"org.apache.commons.lang3.ClassUtilsTest.IF",0,0
+Private Static Class,"org.apache.commons.lang3.ClassUtilsTest.Inner",0,0
+Private Class,"org.apache.commons.lang3.ClassUtilsTest.Inner.DeeplyNested",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageCanonicalName_Class.(Anon_9)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageCanonicalName_Class.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageCanonicalName_Object.(Anon_8)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageCanonicalName_Object.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageName_Class.(Anon_4)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getPackageName_Class.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortCanonicalName_Class.(Anon_7)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortCanonicalName_Class.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortCanonicalName_Object.(Anon_6)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortCanonicalName_Object.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortClassName_Class.(Anon_2)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortClassName_Class.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortClassName_Object.(Anon_1)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getShortClassName_Object.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_getSimpleName_Class.(Anon_3)",0,0
+Class,"org.apache.commons.lang3.ClassUtilsTest.test_getSimpleName_Class.Named",0,0
+Anonymous Class,"org.apache.commons.lang3.ClassUtilsTest.test_isInnerClass_Class.(Anon_5)",0,0
+Public Class,"org.apache.commons.lang3.Conversion",0,0
+Public Class,"org.apache.commons.lang3.ConversionTest",0,0
+Public Class,"org.apache.commons.lang3.EnumUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.asEnum.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.checkBitVectorable.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.generateBitVector.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.generateBitVector.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.generateBitVectors.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.generateBitVectors.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.getEnum.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.getEnumList.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.getEnumMap.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.isValidEnum.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.processBitVector.E",0,0
+Generic Parameter,"org.apache.commons.lang3.EnumUtils.processBitVectors.E",0,0
+Public Class,"org.apache.commons.lang3.EnumUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.HashSetvBitSetTest",0,0
+Public Class,"org.apache.commons.lang3.JavaVersionTest",0,0
+Public Class,"org.apache.commons.lang3.LocaleUtils",0,0
+Static Class,"org.apache.commons.lang3.LocaleUtils.SyncAvoid",0,0
+Public Class,"org.apache.commons.lang3.LocaleUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.ObjectUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.CONST.T",0,0
+Public Static Class,"org.apache.commons.lang3.ObjectUtils.Null",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.clone.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.cloneIfPossible.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.compare.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.compare.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.defaultIfNull.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.firstNonNull.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.max.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.median.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.median.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.min.T",0,0
+Generic Parameter,"org.apache.commons.lang3.ObjectUtils.mode.T",0,0
+Public Class,"org.apache.commons.lang3.ObjectUtilsTest",0,0
+Static Final Class,"org.apache.commons.lang3.ObjectUtilsTest.CharSequenceComparator",0,0
+Static Final Class,"org.apache.commons.lang3.ObjectUtilsTest.CloneableString",0,0
+Static Final Class,"org.apache.commons.lang3.ObjectUtilsTest.NonComparableCharSequence",0,0
+Static Final Class,"org.apache.commons.lang3.ObjectUtilsTest.UncloneableString",0,0
+Public Class,"org.apache.commons.lang3.RandomStringUtils",0,0
+Public Class,"org.apache.commons.lang3.RandomStringUtilsTest",0,0
+Public Final Generic Class,"org.apache.commons.lang3.Range",51,69
+Generic Parameter,"org.apache.commons.lang3.Range.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Range.between.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Range.between.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Range.is.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Range.is.T",0,0
+Public Class,"org.apache.commons.lang3.RangeTest",75,75
+Anonymous Class,"org.apache.commons.lang3.RangeTest.testBetweenWithCompare.(Anon_3)",0,0
+Anonymous Class,"org.apache.commons.lang3.RangeTest.testComparableConstructors.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.RangeTest.testIsWithCompare.(Anon_2)",0,0
+Public Class,"org.apache.commons.lang3.SerializationException",0,0
+Public Class,"org.apache.commons.lang3.SerializationUtils",0,0
+Static Class,"org.apache.commons.lang3.SerializationUtils.ClassLoaderAwareObjectInputStream",0,0
+Generic Parameter,"org.apache.commons.lang3.SerializationUtils.clone.T",0,0
+Generic Parameter,"org.apache.commons.lang3.SerializationUtils.deserialize.T",0,0
+Generic Parameter,"org.apache.commons.lang3.SerializationUtils.deserialize.T",0,0
+Public Class,"org.apache.commons.lang3.SerializationUtilsTest",76,76
+Anonymous Class,"org.apache.commons.lang3.SerializationUtilsTest.testSerializeIOException.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.StringEscapeUtils",0,0
+Static Class,"org.apache.commons.lang3.StringEscapeUtils.CsvEscaper",0,0
+Static Class,"org.apache.commons.lang3.StringEscapeUtils.CsvUnescaper",0,0
+Public Class,"org.apache.commons.lang3.StringEscapeUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.StringUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.StringUtils.defaultIfBlank.T",0,0
+Generic Parameter,"org.apache.commons.lang3.StringUtils.defaultIfEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.StringUtils.join.T",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsEqualsIndexOfTest",0,0
+Private Static Class,"org.apache.commons.lang3.StringUtilsEqualsIndexOfTest.CustomCharSequence",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsIsTest",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsStartsEndsWithTest",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsSubstringTest",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsTest",0,0
+Anonymous Class,"org.apache.commons.lang3.StringUtilsTest.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.StringUtilsTrimEmptyTest",0,0
+Public Class,"org.apache.commons.lang3.SystemUtils",0,0
+Public Class,"org.apache.commons.lang3.SystemUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.Validate",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.exclusiveBetween.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.exclusiveBetween.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.inclusiveBetween.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.inclusiveBetween.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.noNullElements.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.noNullElements.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.noNullElements.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.noNullElements.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notBlank.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notBlank.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notEmpty.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notNull.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.notNull.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Generic Parameter,"org.apache.commons.lang3.Validate.validIndex.T",0,0
+Public Class,"org.apache.commons.lang3.ValidateTest",0,0
+Public Generic Interface,"org.apache.commons.lang3.builder.Builder",0,0
+Generic Parameter,"org.apache.commons.lang3.builder.Builder.T",0,0
+Public Class,"org.apache.commons.lang3.builder.CompareToBuilder",0,27
+Public Class,"org.apache.commons.lang3.builder.CompareToBuilderTest",0,0
+Static Class,"org.apache.commons.lang3.builder.CompareToBuilderTest.TestObject",0,0
+Static Class,"org.apache.commons.lang3.builder.CompareToBuilderTest.TestSubObject",33,33
+Static Class,"org.apache.commons.lang3.builder.CompareToBuilderTest.TestTransientSubObject",0,0
+Public Class,"org.apache.commons.lang3.builder.DefaultToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.EqualsBuilder",18,32
+Public Class,"org.apache.commons.lang3.builder.EqualsBuilderTest",0,0
+Public Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestACanEqualB",0,0
+Public Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestBCanEqualA",0,0
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestEmptySubObject",0,0
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestObject",17,17
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestObjectReference",67,67
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestObjectWithMultipleFields",0,0
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestSubObject",17,17
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestTSubObject",0,0
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestTSubObject2",33,33
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestTTLeafObject",0,0
+Static Class,"org.apache.commons.lang3.builder.EqualsBuilderTest.TestTTSubObject",0,0
+Public Class,"org.apache.commons.lang3.builder.HashCodeBuilder",19,41
+Generic Parameter,"org.apache.commons.lang3.builder.HashCodeBuilder.reflectionHashCode.T",0,0
+Public Class,"org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.AllTransientFixture",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.SubAllTransientFixture",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.SubTestFixture",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest.TestFixture",0,0
+Public Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest.ReflectionTestCycleA",100,100
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest.ReflectionTestCycleB",100,100
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest.TestObject",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest.TestObjectWithMultipleFields",0,0
+Static Class,"org.apache.commons.lang3.builder.HashCodeBuilderTest.TestSubObject",50,50
+Final Class,"org.apache.commons.lang3.builder.IDKey",17,17
+Public Class,"org.apache.commons.lang3.builder.MultiLineToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilder",53,91
+Generic Parameter,"org.apache.commons.lang3.builder.ReflectionToStringBuilder.ReflectionToStringBuilder.T",0,0
+Generic Parameter,"org.apache.commons.lang3.builder.ReflectionToStringBuilder.toString.T",0,0
+Public Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest",0,0
+Static Generic Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest.CollectionHolder",0,0
+Generic Parameter,"org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest.CollectionHolder.T",0,0
+Anonymous Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest.testConcurrency.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest.testConcurrency.(Anon_2)",0,0
+Public Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest",0,0
+Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest.TestFixture",0,0
+Public Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest",0,0
+Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest.InspectingClient",0,0
+Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest.MutatingClient",25,25
+Class,"org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest.TestFixture",11,11
+Public Class,"org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.SimpleToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.StandardToStringStyle",0,0
+Public Class,"org.apache.commons.lang3.builder.StandardToStringStyleTest",30,30
+Public Class,"org.apache.commons.lang3.builder.ToStringBuilder",52,58
+Generic Parameter,"org.apache.commons.lang3.builder.ToStringBuilder.reflectionToString.T",0,0
+Public Class,"org.apache.commons.lang3.builder.ToStringBuilderTest",59,59
+Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.InheritedReflectionStaticFieldsFixture",0,0
+Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.MultiLineTestObject",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ObjectCycle",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.Outer",100,100
+Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.Outer.Inner",0,0
+Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ReflectionStaticFieldsFixture",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ReflectionTestCycleA",100,100
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ReflectionTestCycleB",100,100
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ReflectionTestFixtureA",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.ReflectionTestFixtureB",0,0
+Private Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.SelfInstanceTwoVarsReflectionTestFixture",67,67
+Private Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.SelfInstanceVarReflectionTestFixture",50,50
+Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.SimpleReflectionStaticFieldsFixture",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringBuilderTest.SimpleReflectionTestFixture",67,67
+Generic Parameter,"org.apache.commons.lang3.builder.ToStringBuilderTest.toStringWithStatics.T",0,0
+Public Abstract Class,"org.apache.commons.lang3.builder.ToStringStyle",88,96
+Private Static Final Class,"org.apache.commons.lang3.builder.ToStringStyle.DefaultToStringStyle",0,0
+Private Static Final Class,"org.apache.commons.lang3.builder.ToStringStyle.MultiLineToStringStyle",0,0
+Private Static Final Class,"org.apache.commons.lang3.builder.ToStringStyle.NoFieldNameToStringStyle",0,0
+Private Static Final Class,"org.apache.commons.lang3.builder.ToStringStyle.ShortPrefixToStringStyle",0,0
+Private Static Final Class,"org.apache.commons.lang3.builder.ToStringStyle.SimpleToStringStyle",0,0
+Public Class,"org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest",0,0
+Static Generic Class,"org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest.CollectionHolder",0,0
+Generic Parameter,"org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest.CollectionHolder.T",0,0
+Anonymous Class,"org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest.testConcurrency.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.builder.ToStringStyleTest",0,0
+Static Class,"org.apache.commons.lang3.builder.ToStringStyleTest.Person",0,0
+Private Static Class,"org.apache.commons.lang3.builder.ToStringStyleTest.ToStringStyleImpl",0,0
+Public Abstract Class,"org.apache.commons.lang3.concurrent.AbstractConcurrentInitializerTest",0,0
+Class,"org.apache.commons.lang3.concurrent.AbstractConcurrentInitializerTest.testGetConcurrent.GetThread",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.concurrent.AtomicInitializer",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.AtomicInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.AtomicInitializerTest",0,0
+Anonymous Class,"org.apache.commons.lang3.concurrent.AtomicInitializerTest.createInitializer.(Anon_1)",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.concurrent.AtomicSafeInitializer",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.AtomicSafeInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest.AtomicSafeInitializerTestImpl",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.concurrent.BackgroundInitializer",61,81
+Private Class,"org.apache.commons.lang3.concurrent.BackgroundInitializer.InitializationTask",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.BackgroundInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.BackgroundInitializerTest",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.BackgroundInitializerTest.BackgroundInitializerTestImpl",67,67
+Anonymous Class,"org.apache.commons.lang3.concurrent.BackgroundInitializerTest.testGetInterruptedException.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.concurrent.BasicThreadFactory",57,76
+Public Static Class,"org.apache.commons.lang3.concurrent.BasicThreadFactory.Builder",57,71
+Public Class,"org.apache.commons.lang3.concurrent.BasicThreadFactoryTest",6,17
+Public Generic Class,"org.apache.commons.lang3.concurrent.CallableBackgroundInitializer",25,25
+Generic Parameter,"org.apache.commons.lang3.concurrent.CallableBackgroundInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest.TestCallable",0,0
+Public Class,"org.apache.commons.lang3.concurrent.ConcurrentException",0,0
+Public Generic Interface,"org.apache.commons.lang3.concurrent.ConcurrentInitializer",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.ConcurrentRuntimeException",0,0
+Public Class,"org.apache.commons.lang3.concurrent.ConcurrentUtils",0,0
+Static Final Generic Class,"org.apache.commons.lang3.concurrent.ConcurrentUtils.ConstantFuture",50,50
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.ConstantFuture.T",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.constantFuture.T",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.createIfAbsent.K",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.createIfAbsent.V",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.createIfAbsentUnchecked.K",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.createIfAbsentUnchecked.V",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.initialize.T",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.initializeUnchecked.T",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.putIfAbsent.K",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConcurrentUtils.putIfAbsent.V",0,0
+Public Class,"org.apache.commons.lang3.concurrent.ConcurrentUtilsTest",0,0
+Public Generic Class,"org.apache.commons.lang3.concurrent.ConstantInitializer",0,67
+Generic Parameter,"org.apache.commons.lang3.concurrent.ConstantInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.ConstantInitializerTest",11,33
+Public Abstract Generic Class,"org.apache.commons.lang3.concurrent.LazyInitializer",0,0
+Generic Parameter,"org.apache.commons.lang3.concurrent.LazyInitializer.T",0,0
+Public Class,"org.apache.commons.lang3.concurrent.LazyInitializerTest",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.LazyInitializerTest.LazyInitializerTestImpl",0,0
+Public Class,"org.apache.commons.lang3.concurrent.MultiBackgroundInitializer",40,40
+Public Static Class,"org.apache.commons.lang3.concurrent.MultiBackgroundInitializer.MultiBackgroundInitializerResults",46,63
+Public Class,"org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest",5,25
+Private Static Class,"org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest.ChildBackgroundInitializer",0,0
+Public Class,"org.apache.commons.lang3.concurrent.TimedSemaphore",77,87
+Anonymous Class,"org.apache.commons.lang3.concurrent.TimedSemaphore.startTimer.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.concurrent.TimedSemaphoreTest",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.TimedSemaphoreTest.SemaphoreThread",0,0
+Private Static Class,"org.apache.commons.lang3.concurrent.TimedSemaphoreTest.TimedSemaphoreTestImpl",78,78
+Public Generic Class,"org.apache.commons.lang3.event.EventListenerSupport",52,74
+Generic Parameter,"org.apache.commons.lang3.event.EventListenerSupport.L",0,0
+Protected Class,"org.apache.commons.lang3.event.EventListenerSupport.ProxyInvocationHandler",0,0
+Generic Parameter,"org.apache.commons.lang3.event.EventListenerSupport.create.T",0,0
+Public Class,"org.apache.commons.lang3.event.EventListenerSupportTest",0,0
+Anonymous Class,"org.apache.commons.lang3.event.EventListenerSupportTest.addDeregisterListener.(Anon_4)",0,0
+Anonymous Class,"org.apache.commons.lang3.event.EventListenerSupportTest.createListener.(Anon_5)",0,0
+Anonymous Class,"org.apache.commons.lang3.event.EventListenerSupportTest.testSerialization.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.event.EventListenerSupportTest.testSubclassInvocationHandling.(Anon_2)",0,0
+Anonymous Class,"org.apache.commons.lang3.event.EventListenerSupportTest.testSubclassInvocationHandling.(Anon_2).createInvocationHandler.(Anon_3)",0,0
+Public Class,"org.apache.commons.lang3.event.EventUtils",0,0
+Private Static Class,"org.apache.commons.lang3.event.EventUtils.EventBindingInvocationHandler",11,11
+Generic Parameter,"org.apache.commons.lang3.event.EventUtils.addEventListener.L",0,0
+Generic Parameter,"org.apache.commons.lang3.event.EventUtils.bindEventsToMethod.L",0,0
+Public Class,"org.apache.commons.lang3.event.EventUtilsTest",0,0
+Public Static Class,"org.apache.commons.lang3.event.EventUtilsTest.EventCounter",0,0
+Public Static Class,"org.apache.commons.lang3.event.EventUtilsTest.EventCounterWithEvent",0,0
+Private Static Class,"org.apache.commons.lang3.event.EventUtilsTest.EventCountingInvociationHandler",33,33
+Generic Parameter,"org.apache.commons.lang3.event.EventUtilsTest.EventCountingInvociationHandler.createListener.L",0,0
+Public Static Class,"org.apache.commons.lang3.event.EventUtilsTest.ExceptionEventSource",0,0
+Public Interface,"org.apache.commons.lang3.event.EventUtilsTest.MultipleEventListener",0,0
+Public Static Class,"org.apache.commons.lang3.event.EventUtilsTest.MultipleEventSource",0,0
+Public Static Class,"org.apache.commons.lang3.event.EventUtilsTest.PropertyChangeSource",50,50
+Anonymous Class,"org.apache.commons.lang3.event.EventUtilsTest.testAddEventListenerThrowsException.(Anon_1)",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.exception.AbstractExceptionContextTest",0,0
+Protected Static Class,"org.apache.commons.lang3.exception.AbstractExceptionContextTest.ObjectWithFaultyToString",0,0
+Generic Parameter,"org.apache.commons.lang3.exception.AbstractExceptionContextTest.T",0,0
+Public Class,"org.apache.commons.lang3.exception.CloneFailedException",0,0
+Public Class,"org.apache.commons.lang3.exception.ContextedException",14,14
+Public Class,"org.apache.commons.lang3.exception.ContextedExceptionTest",0,0
+Public Class,"org.apache.commons.lang3.exception.ContextedRuntimeException",14,14
+Public Class,"org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest",0,0
+Anonymous Class,"org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest.testContextedExceptionStringThrowableContext.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.exception.DefaultExceptionContext",0,0
+Public Class,"org.apache.commons.lang3.exception.DefaultExceptionContextTest",0,0
+Public Interface,"org.apache.commons.lang3.exception.ExceptionContext",0,0
+Public Class,"org.apache.commons.lang3.exception.ExceptionUtils",0,0
+Public Class,"org.apache.commons.lang3.exception.ExceptionUtilsTest",62,62
+Private Static Class,"org.apache.commons.lang3.exception.ExceptionUtilsTest.ExceptionWithCause",0,50
+Private Static Class,"org.apache.commons.lang3.exception.ExceptionUtilsTest.ExceptionWithoutCause",0,0
+Private Static Class,"org.apache.commons.lang3.exception.ExceptionUtilsTest.NestableException",0,0
+Public Final Class,"org.apache.commons.lang3.math.Fraction",65,79
+Public Class,"org.apache.commons.lang3.math.FractionTest",0,0
+Public Class,"org.apache.commons.lang3.math.IEEE754rUtils",0,0
+Public Class,"org.apache.commons.lang3.math.IEEE754rUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.math.NumberUtils",0,0
+Public Class,"org.apache.commons.lang3.math.NumberUtilsTest",0,0
+Public Generic Interface,"org.apache.commons.lang3.mutable.Mutable",0,0
+Generic Parameter,"org.apache.commons.lang3.mutable.Mutable.T",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableBoolean",7,14
+Public Class,"org.apache.commons.lang3.mutable.MutableBooleanTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableByte",4,9
+Public Class,"org.apache.commons.lang3.mutable.MutableByteTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableDouble",4,8
+Public Class,"org.apache.commons.lang3.mutable.MutableDoubleTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableFloat",4,8
+Public Class,"org.apache.commons.lang3.mutable.MutableFloatTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableInt",5,9
+Public Class,"org.apache.commons.lang3.mutable.MutableIntTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableLong",5,9
+Public Class,"org.apache.commons.lang3.mutable.MutableLongTest",0,0
+Public Generic Class,"org.apache.commons.lang3.mutable.MutableObject",14,14
+Generic Parameter,"org.apache.commons.lang3.mutable.MutableObject.T",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableObjectTest",0,0
+Public Class,"org.apache.commons.lang3.mutable.MutableShort",4,9
+Public Class,"org.apache.commons.lang3.mutable.MutableShortTest",0,0
+Class,"org.apache.commons.lang3.reflect.AAAClass",0,0
+Public Class,"org.apache.commons.lang3.reflect.AAAClass.BBBClass",0,0
+Generic Class,"org.apache.commons.lang3.reflect.AAClass",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AAClass.BBClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AAClass.BBClass.S",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AAClass.T",0,0
+Class,"org.apache.commons.lang3.reflect.AClass",100,100
+Public Generic Interface,"org.apache.commons.lang3.reflect.AClass.AInterface",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.AInterface.T",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AClass.BClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.BClass.T",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AClass.CClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.CClass.T",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AClass.DClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.DClass.T",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AClass.EClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.EClass.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.AClass.FClass",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.AClass.GClass",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.AClass.GClass.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.ConstructorUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.getAccessibleConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.getAccessibleConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.getMatchingAccessibleConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.invokeConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.invokeConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.invokeExactConstructor.T",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.ConstructorUtils.invokeExactConstructor.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.ConstructorUtilsTest",58,75
+Private Static Class,"org.apache.commons.lang3.reflect.ConstructorUtilsTest.PrivateClass",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.ConstructorUtilsTest.TestBean",0,0
+Public Class,"org.apache.commons.lang3.reflect.FieldUtils",0,0
+Public Class,"org.apache.commons.lang3.reflect.FieldUtilsTest",78,78
+Generic Parameter,"org.apache.commons.lang3.reflect.FieldUtilsTest.asArrayList.T",0,0
+Abstract Class,"org.apache.commons.lang3.reflect.MemberUtils",0,0
+Public Class,"org.apache.commons.lang3.reflect.MethodUtils",0,0
+Public Class,"org.apache.commons.lang3.reflect.MethodUtilsTest",79,85
+Interface,"org.apache.commons.lang3.reflect.MethodUtilsTest.ChildInterface",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.ChildObject",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.GrandParentObject",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.InheritanceBean",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.ParentObject",0,0
+Private Interface,"org.apache.commons.lang3.reflect.MethodUtilsTest.PrivateInterface",0,0
+Public Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.TestBean",0,0
+Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.TestBeanWithInterfaces",0,0
+Private Static Class,"org.apache.commons.lang3.reflect.MethodUtilsTest.TestMutable",0,0
+Public Class,"org.apache.commons.lang3.reflect.TypeUtils",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtils.mapTypeVariablesToArguments.T",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.TypeUtilsTest",97,97
+Public Generic Interface,"org.apache.commons.lang3.reflect.TypeUtilsTest.And",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.And.K",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.And.V",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.B",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.TypeUtilsTest.Other",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.Other.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.TypeUtilsTest.Tester",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.TypeUtilsTest.That",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.That.K",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.That.V",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.TypeUtilsTest.The",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.The.K",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.The.V",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.TypeUtilsTest.Thing",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.Thing.Q",0,0
+Public Generic Interface,"org.apache.commons.lang3.reflect.TypeUtilsTest.This",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.This.K",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.This.V",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.stub.G",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.stub2.G",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.TypeUtilsTest.stub3.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.Ambig",0,0
+Public Interface,"org.apache.commons.lang3.reflect.testbed.Bar",0,0
+Public Interface,"org.apache.commons.lang3.reflect.testbed.Foo",0,0
+Public Generic Class,"org.apache.commons.lang3.reflect.testbed.GenericParent",0,0
+Generic Parameter,"org.apache.commons.lang3.reflect.testbed.GenericParent.T",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.GenericTypeHolder",0,0
+Class,"org.apache.commons.lang3.reflect.testbed.Parent",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.PrivatelyShadowedChild",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.PublicChild",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.PubliclyShadowedChild",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.StaticContainer",56,56
+Public Class,"org.apache.commons.lang3.reflect.testbed.StaticContainerChild",0,0
+Public Class,"org.apache.commons.lang3.reflect.testbed.StringParameterizedChild",0,0
+Public Class,"org.apache.commons.lang3.text.CompositeFormat",33,50
+Public Class,"org.apache.commons.lang3.text.CompositeFormatTest",0,0
+Anonymous Class,"org.apache.commons.lang3.text.CompositeFormatTest.testCompositeFormat.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.CompositeFormatTest.testCompositeFormat.(Anon_2)",0,0
+Public Class,"org.apache.commons.lang3.text.ExtendedMessageFormat",67,79
+Public Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest",71,71
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.LowerCaseFormat",0,0
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.LowerCaseFormatFactory",0,0
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.OtherExtendedMessageFormat",0,0
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.OverrideShortDateFormatFactory",0,0
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.UpperCaseFormat",0,0
+Private Static Class,"org.apache.commons.lang3.text.ExtendedMessageFormatTest.UpperCaseFormatFactory",0,0
+Public Interface,"org.apache.commons.lang3.text.FormatFactory",0,0
+Public Class,"org.apache.commons.lang3.text.FormattableUtils",0,0
+Public Class,"org.apache.commons.lang3.text.FormattableUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.text.StrBuilder",46,76
+Class,"org.apache.commons.lang3.text.StrBuilder.StrBuilderReader",56,56
+Class,"org.apache.commons.lang3.text.StrBuilder.StrBuilderTokenizer",0,0
+Class,"org.apache.commons.lang3.text.StrBuilder.StrBuilderWriter",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrBuilder.appendAll.T",0,0
+Public Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_CharArray.(Anon_11)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_CharArray_int_int.(Anon_12)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_FormattedString.(Anon_2)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StrBuilder.(Anon_9)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StrBuilder_int_int.(Anon_10)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_String.(Anon_3)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StringBuffer.(Anon_5)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StringBuffer_int_int.(Anon_7)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StringBuilder.(Anon_6)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_StringBuilder_int_int.(Anon_8)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderAppendInsertTest.testAppendln_String_int_int.(Anon_4)",0,0
+Public Class,"org.apache.commons.lang3.text.StrBuilderTest",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrBuilderTest.(Anon_1)",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.text.StrLookup",0,0
+Static Generic Class,"org.apache.commons.lang3.text.StrLookup.MapStrLookup",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrLookup.MapStrLookup.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrLookup.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrLookup.mapLookup.V",0,0
+Public Class,"org.apache.commons.lang3.text.StrLookupTest",0,0
+Public Abstract Class,"org.apache.commons.lang3.text.StrMatcher",0,0
+Static Final Class,"org.apache.commons.lang3.text.StrMatcher.CharMatcher",0,0
+Static Final Class,"org.apache.commons.lang3.text.StrMatcher.CharSetMatcher",0,0
+Static Final Class,"org.apache.commons.lang3.text.StrMatcher.NoMatcher",0,0
+Static Final Class,"org.apache.commons.lang3.text.StrMatcher.StringMatcher",0,0
+Static Final Class,"org.apache.commons.lang3.text.StrMatcher.TrimMatcher",0,0
+Public Class,"org.apache.commons.lang3.text.StrMatcherTest",0,0
+Public Class,"org.apache.commons.lang3.text.StrSubstitutor",38,96
+Generic Parameter,"org.apache.commons.lang3.text.StrSubstitutor.StrSubstitutor.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrSubstitutor.StrSubstitutor.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrSubstitutor.StrSubstitutor.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrSubstitutor.replace.V",0,0
+Generic Parameter,"org.apache.commons.lang3.text.StrSubstitutor.replace.V",0,0
+Public Class,"org.apache.commons.lang3.text.StrSubstitutorTest",34,71
+Anonymous Class,"org.apache.commons.lang3.text.StrSubstitutorTest.testResolveVariable.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.text.StrTokenizer",66,93
+Public Class,"org.apache.commons.lang3.text.StrTokenizerTest",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrTokenizerTest.testCloneNotSupportedException.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrTokenizerTest.testTokenizeSubclassInputChange.(Anon_2)",0,0
+Anonymous Class,"org.apache.commons.lang3.text.StrTokenizerTest.testTokenizeSubclassOutputChange.(Anon_3)",0,0
+Public Class,"org.apache.commons.lang3.text.WordUtils",0,0
+Public Class,"org.apache.commons.lang3.text.WordUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.AggregateTranslator",0,0
+Public Abstract Class,"org.apache.commons.lang3.text.translate.CharSequenceTranslator",0,0
+Public Abstract Class,"org.apache.commons.lang3.text.translate.CodePointTranslator",0,0
+Public Class,"org.apache.commons.lang3.text.translate.EntityArrays",0,0
+Public Class,"org.apache.commons.lang3.text.translate.EntityArraysTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.JavaUnicodeEscaper",0,0
+Public Class,"org.apache.commons.lang3.text.translate.LookupTranslator",0,0
+Public Class,"org.apache.commons.lang3.text.translate.LookupTranslatorTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.NumericEntityEscaper",0,71
+Public Class,"org.apache.commons.lang3.text.translate.NumericEntityEscaperTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.NumericEntityUnescaper",0,33
+Public Class,"org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.OctalUnescaper",0,0
+Public Class,"org.apache.commons.lang3.text.translate.OctalUnescaperTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.UnicodeEscaper",13,75
+Public Class,"org.apache.commons.lang3.text.translate.UnicodeEscaperTest",0,0
+Public Class,"org.apache.commons.lang3.text.translate.UnicodeUnescaper",0,0
+Public Class,"org.apache.commons.lang3.text.translate.UnicodeUnescaperTest",0,0
+Public Class,"org.apache.commons.lang3.time.DateFormatUtils",0,0
+Public Class,"org.apache.commons.lang3.time.DateFormatUtilsTest",0,0
+Public Interface,"org.apache.commons.lang3.time.DateParser",0,0
+Public Interface,"org.apache.commons.lang3.time.DatePrinter",0,0
+Public Class,"org.apache.commons.lang3.time.DateUtils",0,0
+Static Class,"org.apache.commons.lang3.time.DateUtils.DateIterator",25,25
+Public Class,"org.apache.commons.lang3.time.DateUtilsFragmentTest",51,51
+Public Class,"org.apache.commons.lang3.time.DateUtilsRoundingTest",73,84
+Public Class,"org.apache.commons.lang3.time.DateUtilsTest",92,92
+Public Class,"org.apache.commons.lang3.time.DurationFormatUtils",0,0
+Static Class,"org.apache.commons.lang3.time.DurationFormatUtils.Token",28,33
+Public Class,"org.apache.commons.lang3.time.DurationFormatUtilsTest",0,0
+Public Class,"org.apache.commons.lang3.time.FastDateFormat",72,72
+Anonymous Class,"org.apache.commons.lang3.time.FastDateFormat.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.time.FastDateFormatTest",0,0
+Anonymous Class,"org.apache.commons.lang3.time.FastDateFormatTest.measureTime.(Anon_2)",0,0
+Anonymous Class,"org.apache.commons.lang3.time.FastDateFormatTest.testParseSync.(Anon_1)",0,0
+Public Class,"org.apache.commons.lang3.time.FastDateFormat_ParserTest",0,0
+Public Class,"org.apache.commons.lang3.time.FastDateFormat_PrinterTest",0,0
+Public Class,"org.apache.commons.lang3.time.FastDateParser",68,82
+Anonymous Class,"org.apache.commons.lang3.time.FastDateParser.(Anon_1)",0,0
+Anonymous Class,"org.apache.commons.lang3.time.FastDateParser.(Anon_2)",0,0
+Anonymous Class,"org.apache.commons.lang3.time.FastDateParser.(Anon_3)",0,0
+Anonymous Class,"org.apache.commons.lang3.time.FastDateParser.(Anon_4)",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDateParser.CopyQuotedStrategy",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDateParser.NumberStrategy",60,60
+Private Static Abstract Class,"org.apache.commons.lang3.time.FastDateParser.Strategy",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDateParser.TextStrategy",17,17
+Private Static Class,"org.apache.commons.lang3.time.FastDateParser.TimeZoneStrategy",33,33
+Public Class,"org.apache.commons.lang3.time.FastDateParserTest",0,0
+Public Class,"org.apache.commons.lang3.time.FastDatePrinter",60,81
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.CharacterLiteral",33,33
+Private Interface,"org.apache.commons.lang3.time.FastDatePrinter.NumberRule",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.PaddedNumberField",50,50
+Private Interface,"org.apache.commons.lang3.time.FastDatePrinter.Rule",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.StringLiteral",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TextField",17,17
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TimeZoneDisplayKey",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNameRule",33,33
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TimeZoneNumberRule",33,33
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TwelveHourField",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TwentyFourHourField",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TwoDigitMonthField",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TwoDigitNumberField",50,50
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.TwoDigitYearField",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.UnpaddedMonthField",0,0
+Private Static Class,"org.apache.commons.lang3.time.FastDatePrinter.UnpaddedNumberField",50,50
+Public Class,"org.apache.commons.lang3.time.FastDatePrinterTest",0,0
+Abstract Generic Class,"org.apache.commons.lang3.time.FormatCache",71,86
+Generic Parameter,"org.apache.commons.lang3.time.FormatCache.F",0,0
+Private Static Class,"org.apache.commons.lang3.time.FormatCache.MultipartKey",33,33
+Public Class,"org.apache.commons.lang3.time.StopWatch",52,68
+Public Class,"org.apache.commons.lang3.time.StopWatchTest",0,0
+Public Final Generic Class,"org.apache.commons.lang3.tuple.ImmutablePair",40,60
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutablePair.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutablePair.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutablePair.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutablePair.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.ImmutablePairTest",0,0
+Public Final Generic Class,"org.apache.commons.lang3.tuple.ImmutableTriple",40,60
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.of.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.ImmutableTriple.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.ImmutableTripleTest",0,0
+Public Generic Class,"org.apache.commons.lang3.tuple.MutablePair",44,63
+Generic Parameter,"org.apache.commons.lang3.tuple.MutablePair.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutablePair.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutablePair.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutablePair.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.MutablePairTest",0,0
+Public Generic Class,"org.apache.commons.lang3.tuple.MutableTriple",56,67
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.of.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.MutableTriple.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.MutableTripleTest",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.tuple.Pair",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Pair.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Pair.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Pair.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Pair.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.PairTest",0,0
+Public Abstract Generic Class,"org.apache.commons.lang3.tuple.Triple",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.R",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.of.L",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.of.M",0,0
+Generic Parameter,"org.apache.commons.lang3.tuple.Triple.of.R",0,0
+Public Class,"org.apache.commons.lang3.tuple.TripleTest",0,0

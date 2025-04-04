@@ -153,7 +153,7 @@ def analyze_class_cohesion(csv_file='charts.csv'):
 
 if __name__ == "__main__":
     # Modify this to process a specific CSV file
-    csv_file = 'Collections.csv'  
+    csv_file = 'Lang.csv'  
     result_df, output_dir = analyze_class_cohesion(csv_file)
     
     project_name = os.path.splitext(os.path.basename(csv_file))[0].capitalize()
