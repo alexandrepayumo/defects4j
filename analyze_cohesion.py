@@ -17,11 +17,21 @@ def analyze_class_cohesion(csv_file='charts.csv'):
     graphs_dir = 'graphs'
     project_graphs_dir = os.path.join(graphs_dir, project_dir)
     
+    
     # Create the directories if they don't exist
     os.makedirs(project_graphs_dir, exist_ok=True)
     
-    # 2. Use all classes (no filtering)
+    
     classes_df = df.copy()
+    #filter  rows with test  in the name
+    classes_df = classes_df[~classes_df['Name'].str.contains('test', case=False)]
+    #filter rows with public interface in the kind column
+    classes_df = classes_df[~classes_df['Kind'].str.contains('public interface', case=False)]
+  
+    # Check if the DataFrame is empty
+    if classes_df.empty:
+        print("No classes found in the CSV file.")
+        return None, project_graphs_dir
     
     # Check for LCOM columns
     required_columns = ['PercentLackOfCohesion', 'PercentLackOfCohesionModified']
@@ -153,7 +163,7 @@ def analyze_class_cohesion(csv_file='charts.csv'):
 
 if __name__ == "__main__":
     # Modify this to process a specific CSV file
-    csv_file = 'Lang.csv'  
+    csv_file = 'Collections.csv'  
     result_df, output_dir = analyze_class_cohesion(csv_file)
     
     project_name = os.path.splitext(os.path.basename(csv_file))[0].capitalize()
